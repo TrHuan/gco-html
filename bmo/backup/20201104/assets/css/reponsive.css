@@ -1,0 +1,575 @@
+
+@media (max-width: 1399px) {
+	.slick-prev {
+	    left: 5px;
+	}
+	.slick-next {
+	    right: 5px;
+	}
+
+	.back-to-top {
+		bottom: 15px;
+		right: 15px;
+	}
+
+	.art-popups-registration .banners-events-image {
+	    padding-left: 0;
+	}
+}
+
+@media (max-width: 1199px) {
+	.container {
+	    max-width: 960px;
+	}
+
+	.megamenu-content li {
+	    margin-right: 15px;
+	}
+
+	.field-image {
+	    max-width: 140px;
+	}
+	.field-content {
+	    max-width: calc(100% - 140px);
+	}
+
+	.blogs-content .blog-image,
+	.blogs-content .blog-content {
+		max-width: 50%;
+	}
+	.blogs-content .blog-content {
+		padding-left: 15px;
+	}
+
+	.blog-details-box {
+		padding-right: 0;
+	}
+
+	.google-maps-box iframe {
+		width: 100%;
+	}
+
+	.registration-content .regis-content {
+		padding-left: 30px;
+	}
+
+	.partner-criteria-content .form-group {
+	    margin-right: 70px;
+	}
+
+	.energy-company-box .form-group {
+	    width: 33.3333%;
+	    margin-right: 0;
+	    padding: 0 15px;
+	}
+	.partner-criteria-content .regis-list li {
+	    margin-right: 20px;
+	}
+
+	.business-information-content {
+		margin: 0 -15px;
+	}
+	.business-information-content .item {
+		padding: 0 15px;
+	}
+
+	.art-banner-registration .banners-content .content {
+		margin-bottom: 15px;
+	}
+
+	.sidebars-fields-content {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.sidebar-fields-content a {
+		font-size: 14px;
+	}
+
+	.fields-site .fields-box {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.fields-list .field-image {
+	    max-width: 140px;
+	}
+	.fields-list .field-content {
+	    max-width: calc(100% - 140px);
+	}
+
+	.participating-unit-content {
+	    padding-left: 15px;
+	}
+
+	.art-enterprise-introduction .sidebars-fields-content {
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+	.art-enterprise-introduction .form-group:nth-child(4n) {
+		margin-right: 0;
+	}
+	.art-enterprise-introduction .main-container {
+	    padding-left: 15px;
+	    padding-right: 0;
+	}
+
+	.art-banners-profile .megamenu-content li {
+	    margin-right: 40px;
+	}
+
+	.art-popups-registration .popups-content {
+    	padding: 48px 50px 90px;
+    }
+    .art-popups-registration .title-box .title {
+    	font-size: 37px;
+    }
+    .art-popups-registration .title-box p {
+    	font-size: 30px;
+    }
+
+    .art-popups-edit-search .popups-content {
+	    padding: 48px 30px 90px;
+	}
+}
+
+@media (max-width: 991px) {
+	.container {
+	    max-width: 720px;
+	}
+
+	.logins-box {
+	    float: none;
+	    margin: 30px auto 0;
+	}
+
+	.title-tab .tab-fields {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+	.title-tab .tab-fields li {
+		padding: 0 5px;
+		width: 50%;
+	}
+
+	.header-groups-box-2 > div {
+	    margin-left: 15px;
+	}
+
+	.mobile-content {
+	    float: right;
+	}
+	.menu-open span,
+	.menu-open span:before,
+	.menu-open span:after {
+		background-color: #000;
+	}
+	.headers-2 .menu-open span,
+	.headers-2 .menu-open span:before,
+	.headers-2 .menu-open span:after {
+	    background-color: #fff;
+	}
+	.close {
+		color: #000;
+	}
+
+	.header-groups-box-2 .accounts-box {
+		margin-left: 0;
+	}
+	.accounts-content .title-name a {
+		margin-left: 5px;
+	}
+
+	.blog-details-box {
+		margin-bottom: 25px;
+	}
+
+	.art-address  {
+		margin-bottom: 50px;
+	}
+
+	.registration-content .regis-avata {
+		max-width: 120px;
+	}
+	.registration-content .regis-avata .image {
+		width: 120px;
+		height: 120px;
+	}
+	.registration-content .regis-content {
+	    max-width: calc(100% - 120px);
+	}
+
+	.partner-criteria-content .form-content {
+		margin: 0 -15px;
+	}
+	.partner-criteria-content .form-group {
+		width: 33.3333%;
+		margin-right: 0;
+		padding: 0 15px;
+	}
+
+	.business-information-content .item {
+		width: 100%;
+	}
+
+	.art-banner-registration .banners-content .btn {
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+	.art-banner-registration .banners-content .btn:last-child {
+		margin-bottom: 0;
+	}
+	.art-banner-registration .banners-content .content {
+		width: 100%;
+	}
+	.art-banner-registration .banners-content .form-group {
+		justify-content: center;
+	}
+
+	.fields-site .fields-box {
+		border-left: none;
+	}
+
+	.banners-events-image {
+	    text-align: center;
+	    padding-left: 0;
+	    padding-top: 15px;
+	}
+
+	.art-sidebar-events {
+		padding-right: 0;
+	}
+
+
+	.art-popups-events .popup-content .forms,
+	.art-popups-events .popup-content > .content {
+		width: 100%;
+	}
+	.art-popups-events .popup-content > .content {
+		margin-bottom: 20px;
+	}
+
+	.art-popups-appointments .forms {
+	    padding-left: 0;
+	}
+
+	.art-enterprise-introduction .main-container {
+		border: none;
+		padding-left: 0;
+	}
+	.art-enterprise-introduction .main-container .row > div {
+		padding: 0;
+	}
+
+	.art-banners-profile .megamenu {
+		display: none;
+	}
+	.art-banners-profile .banners-content {
+		padding-bottom: 70px;
+		background-color: #fff;
+	}
+
+	/*.event-not-register-content .title-banners-events {
+	    padding-right: 0;
+	}*/
+
+	.art-popups-registration .popup-content > .forms,
+	.art-popups-registration .popup-content > .content {
+		width: 100%;
+	}
+
+	.art-popups-edit-search .fields-list .item {
+		width: 50%;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+	    max-width: 540px;
+	}
+
+	.header-groups-box > div {
+	    margin-left: 30px;
+	}
+
+	.fields-content .item {
+		width: 100%;
+	}
+
+	.brands-content {
+	    margin: -15px;
+	}
+	.brands-content .item {
+	    padding: 15px;
+	}
+
+	.blogs-content .blog-image,
+	.blogs-content .blog-content {
+		max-width: 100%;
+	}
+	.blogs-content .blog-content {
+		padding-left: 0;
+		margin-top: 15px;
+	}
+	.blogs-content .active .blog-content {
+		padding: 15px;
+	}
+
+	.registration-content .regis-avata {
+		max-width: 200px;
+		margin: 0 auto 25px;
+	}
+	.registration-content .regis-avata .image {
+		width: 200px;
+		height: 200px;
+	}
+	.registration-content .regis-content {
+	    max-width: 100%;
+	    padding-left: 0;
+	}
+
+	.partner-criteria-content .form-group {
+		width: 50%;
+	}
+
+	.registration-supplier-box .regis-content {
+		padding-right: 0;
+	}
+	.art-registration-supplier .registration-content .regis-avata {
+	    margin: 25px auto 0;
+	}
+
+	.art-popups-appointments .popups-content {
+		padding: 70px 15px;
+	}
+	.art-popups-appointments .forms label {
+		max-width: 190px;
+	}
+	.art-popups-appointments .forms .form-group > div {
+	    max-width: calc(100% - 190px);
+	}
+	.art-popups-appointments .forms .button {
+		margin-left: 190px
+	}
+
+	.enterprise-content,
+	.enterprise-image {
+		max-width: 100%;
+	}
+	.enterprise-content {
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+	.profile-avata {
+		left: 15px;
+	}
+	.title-profile {
+		padding: 15px;
+	}
+	.event-not-register-content,
+	.profile-event-content,
+	.profile-box .partner-criteria-content,
+	.about-box .profile-content {
+		padding: 30px 15px;
+	}
+
+	.profile-event-content .banners-events-content > div {
+		width: 100%;
+	}
+
+	.art-popups-registration .popups-content {
+	    padding: 48px 15px 90px;
+	}
+
+	.art-popups-edit-search .form-group,
+	.art-popups-edit-search .fields-list .item {
+		width: 100%;
+	}
+}
+
+@media (max-width: 575px) {
+	.title {
+	    font-size: 24px;
+	}
+
+	.header-groups-box > div {
+	    margin-left: 15px;
+	}
+	
+	.logins-box {
+	    padding: 52px 15px 72px;
+	}
+	.art-logins .title {
+		font-size: 26px;
+	}
+	.art-logins .banners-content .item {
+	    margin-right: 30px;
+	    margin-bottom: 15px;
+	}
+	.art-logins .banners-content .item:last-chid {
+	    margin-bottom: 0;
+	}
+
+	.field-content,
+	.field-image {
+	    max-width: 100%;
+	    text-align: center;
+	}
+	.field-content {
+		padding: 0 10px;
+	}
+	.title-tab .tab-fields li {
+		width: 100%;
+	}
+
+	.blogs-content .active .blog-link {
+		font-size: 20px;
+	}
+	.blogs-content .active .blog-content {
+	    padding: 10px 15px;
+	}
+
+	.registration-content .regis-form .form-content,
+	.partner-criteria-content .form-group {
+		width: 100%;
+	}
+
+	.registration-content .regis-form .form-content {
+		margin-bottom: 20px;
+	}
+	.registration-content .regis-form .form-content:last-child {
+		margin-bottom: 0;
+	}
+
+	.partner-criteria-content .btn-save,
+	.partner-criteria-content .btn {
+	    padding: 0 40px;
+	}
+
+	.art-banner-registration .banners-content .btn {
+		padding: 7px 40px;
+	}
+
+	.art-banner-registration .banners-content .form-control {
+	    margin-left: 7px;
+	}
+
+	.busine-infor-content,
+	.busine-infor-image {
+		max-width: 100%;
+	}
+	.busine-infor-content {
+		padding-left: 0;
+		margin-top: 20px;
+	}
+
+	.fields-list .field-content,
+	.fields-list .field-image {
+	    max-width: 100%;
+	}
+
+	.banners-events-button .btn {
+		padding: 8px 20px;
+	}
+
+	.participating-unit-content,
+	.participating-unit-image {
+		max-width: 100%;
+	}
+	.participating-unit-content {
+		padding-left: 0;
+		margin-top: 20px;
+	}
+
+	.art-popups-events .popup-content {
+		padding: 40px 15px;
+	}
+
+	.art-popups-appointments .table-content {
+		overflow-x: auto;
+		padding-bottom: 10px;
+	}
+	.art-popups-appointments table {
+		width: 540px;
+	}
+
+	.art-popups-appointments .forms label,
+	.art-popups-appointments .forms .form-group > div {
+		max-width: 100%;
+	}
+	.art-popups-appointments .forms label {
+		margin-bottom: 5px;
+	}
+	.art-popups-appointments .forms .button {
+	    margin-left: 0;
+	}
+
+	.art-enterprise-introduction .partner-criteria-content .btn {
+	    padding: 8px 30px;
+	}
+
+	.profile-content ul {
+		display: block;
+	}
+	.profile-avata {
+		bottom: -18px;
+	}
+	.profile-avata .image {
+		max-width: 90px;
+		max-height: 90px;
+	}
+	.profile-avata .content {
+		max-width: calc(100% - 90px);
+	}
+	.profile-avata .name a {
+	    font-size: 22px;
+	}
+	.profile-avata .address {
+		font-size: 14px;
+	}
+	.art-banners-profile .banners-content {
+	    padding-bottom: 40px;
+	}
+
+	.profile-event-box .title-banners-events .title {
+		font-size: 18px;
+	}
+	.event-not-register-content .btn {
+		margin-bottom: 15px;
+	}
+	.event-not-register-content .btn:last-child {
+		margin-bottom: 0;
+	}
+
+	.profile-appointment-box .event-not-register-content .btn {
+		margin-bottom: 0;
+	}
+
+	.profile-appointment-box .title-tab li {
+	    margin-right: 14px;
+	}
+	.profile-appointment-box .title-tab a {
+		font-size: 14px;
+	}
+
+	.art-popups-registration .popups-content {
+	    padding: 48px 0 90px;
+	}
+	.art-popups-registration .title-box p {
+	    font-size: 20px;
+	}
+	.art-popups-registration .title-box .title {
+	    font-size: 24px;
+	}
+
+	.art-popups-edit-search .popups-content {
+	    padding: 48px 15px 90px;
+	}
+	.art-popups-edit-search .fields-list .field-image,
+	.art-popups-edit-search .fields-list .field-content {
+		max-width: 100%;
+	}
+	.art-popups-edit-search .btn {
+		padding: 6px 60px;
+	}
+}

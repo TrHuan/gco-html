@@ -1,0 +1,62 @@
+/*2021-09-17*/
+
+.module_hosting_price .groups-box {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.module_hosting_price .groups-box > * {
+    padding: 20px 0;
+}
+
+.module_hosting_price .item-2 {
+    padding: 0;
+}
+
+.module_hosting_price .item-1 .content {
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.module_hosting_price .item-3 .content {
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+}
+
+.module_hosting_price .content {
+    padding: 35px 50px 50px 50px;
+    border: 1px solid #a5b8c5;
+    border-radius: 5px;
+    position: relative;
+    background: #fff;
+}
+
+.module_hosting_price .content-center {
+    padding: 55px 50px 70px 50px;
+    border: 2px solid #f9b851;
+    background: #fff8ec;
+    height: 100%;
+}
+
+@media (max-width: 1199px) {
+    .module_hosting_price .content {
+        padding: 35px 20px 50px 20px;
+    }
+
+    .module_hosting_price .content-center {
+        padding: 55px 20px 70px 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .module_hosting_price .groups-box {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .module_hosting_price .content {
+        border: 1px solid #a5b8c5 !important;
+        border-radius: 5px !important;
+    }
+}

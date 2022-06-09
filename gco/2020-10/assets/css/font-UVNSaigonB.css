@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "UVNSaigonBold";
+  src: url("../fonts/UVNSaigonB/UVNSaigonB.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/UVNSaigonB/UVNSaigonB.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/UVNSaigonB/UVNSaigonB.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/UVNSaigonB/UVNSaigonB.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/UVNSaigonB/UVNSaigonB.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/UVNSaigonB/UVNSaigonB.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/UVNSaigonB/UVNSaigonB.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

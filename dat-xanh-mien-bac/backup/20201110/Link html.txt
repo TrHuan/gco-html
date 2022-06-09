@@ -1,0 +1,10 @@
+Link html: 
+1: Trang chủ: http://tpl.gco.vn/dat-xanh-mien-bac/index.php
+2: Giới thiệu: http://tpl.gco.vn/dat-xanh-mien-bac/about-us.php
+3: Bán BDS: http://tpl.gco.vn/dat-xanh-mien-bac/real-estates-for-sale.php
+4: Thuê BDS: http://tpl.gco.vn/dat-xanh-mien-bac/real-estates-rent.php
+5: Quản lý BDS: http://tpl.gco.vn/dat-xanh-mien-bac/real-estates-management.php
+6: Tin tức: http://tpl.gco.vn/dat-xanh-mien-bac/blogs.php
+7: Tuyển dụng: http://tpl.gco.vn/dat-xanh-mien-bac/recruitments.php
+8: Liên hệ: http://tpl.gco.vn/dat-xanh-mien-bac/contacts.php
+9: Popup đăng ký nhận báo giá

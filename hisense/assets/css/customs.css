@@ -1,0 +1,12 @@
+.email-inner,
+.cta-single-inner,
+.wi .wrapper *,
+.intro-inner *,
+.nf .bottom * {
+	visibility: initial !important;
+	opacity: 1 !important;
+}
+
+.footer .social-inner {
+    width: 44%;
+}

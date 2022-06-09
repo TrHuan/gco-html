@@ -1,0 +1,540 @@
+
+@media (max-width: 1399px) {
+	.slider-content {
+		bottom: 145px;
+	}
+	.slider-content h3 {
+	    font-size: 60px;
+	    margin-bottom: 15px;
+	}
+	.slider-content p {
+	    margin-bottom: 40px;
+	}
+	.slidershow-box .slick-dots {
+		bottom: 60px;
+	}
+
+	.personnels-contents .slick-arrow {
+	    width: 40px;
+	    height: 40px;
+	    line-height: 38px;
+	    font-size: 40px;
+	}
+	.personnels-contents .slick-prev {
+		left: 5px
+	}
+	.personnels-contents .slick-next {
+		right: 5px
+	}
+
+	.products-other-contents .slick-prev {
+		left: 5px;
+	}
+	.products-other-contents .slick-next {
+		right: 5px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.container {
+	    max-width: 960px;
+	}
+
+	.megamenu-desktop .megamenu-content {
+		margin-right: 10px;
+	}
+
+	.slidershow-box .slick-dots {
+	    bottom: 20px;
+	    max-width: 960px;
+	}
+	.slider-content {
+	    bottom: 80px;
+	    max-width: 960px;
+	}
+	.slider-content .content {
+	    padding-right: 0;
+	}
+
+	.art-introduces .banners-image {
+		text-align: center;
+	}
+
+	.services-contents .item.active,
+	.services-contents .item {
+	    width: calc(100% / 3);
+	}
+	.services-contents .item.active {
+		padding: 0;
+	}
+	.services-contents .active .service-box {
+	    padding: 130px 15px;
+	}
+	.services-contents .active p {
+		padding: 0;
+	}
+	.services-contents .active h4 {
+		font-size: 24px;
+	}
+
+	.products-contents {
+		margin: -15px;
+	}
+	.products-contents .item {
+		padding: 15px;
+	}
+
+	.recruitments-contents {
+	    margin: -100px -15px;
+	}
+	.recruitments-contents .item {
+	    padding: 100px 15px;
+	}
+	.recruitment-box {
+		padding: 80px 15px;
+	}
+
+	.art-blogs .item {
+	    width: calc(100% / 2);
+	}
+
+	.products-list-box .product-content {
+	    padding: 0 15px;
+	}
+
+	.tab-sidebar-posts .post-image {
+	    max-width: 100px;
+	}
+	.tab-sidebar-posts .post-content {
+	    max-width: calc(100% - 100px);
+	    padding: 0 0 0 15px;
+	}
+
+	.product-detail-contents,
+	.product-detail-images {
+		max-width: 100%;
+	}
+	.product-detail-contents {
+		padding: 0;
+		margin-top: 20px;
+	}
+
+	.footer-box.contact-box {
+		padding: 0 !important;
+	}
+}
+
+@media (max-width: 991px) {
+	.container {
+	    max-width: 720px;
+	}
+
+	.title-box p {
+		padding: 0;
+	}
+
+	.back-to-top {
+		bottom: 15px;
+		right: 15px;
+	}
+
+	.header-main {
+		padding:  20px 0;
+	}
+
+	.slider-content .btn {
+	    padding: 10px 30px;
+	    font-size: 16px;
+	}
+	.slider-content p {
+	    font-size: 14px;
+	}
+	.slider-content h3 {
+	    font-size: 40px;
+	}
+	.slidershow-box .slick-dots,
+	.slider-content {
+	    max-width: 720px;
+	}
+
+	.services-contents .item.active,
+	.services-contents .item {
+	    width: 100%;
+	    padding: 15px;
+	}
+
+	.art-histories .banners-image {
+		margin-top: 25px;
+	}
+	.art-histories .banners-image img {
+		width: 100%;
+	}
+
+	.body-about-us .art-introduces .banners-image {
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+
+	.contacts-content .groups-box .item,
+	.address-content .item {
+		width: 100%;
+	}
+	.address-content .item > * {
+		height: 100%;
+	}
+
+	.products-list-box .product-box img,
+	.products-list-box .product-box > * {
+		width: 100%;
+	}
+	.products-list-box .product-box-2 {
+		flex-direction: column-reverse;
+	}
+	.products-list-box .product-content {
+	    padding: 20px 15px;
+	}
+
+	.art-banners-products .banner-content {
+		left: 15px;
+	}
+
+	.art-post-detail .sidebars {
+		padding-left: 0;
+		border-left: none;
+	}
+
+	.recruitment-relate-contents {
+		margin: -15px;
+	}
+	.recruitment-relate-contents .contents {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.recruitment-relate-contents .item {
+		width: calc(100% / 3);
+		padding: 15px;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+	    max-width: 540px;
+	}
+
+	.title-2 {
+		font-size: 70px;
+	}
+	.title {
+		font-size: 30px;
+	}
+	.title-box p {
+		font-size: 16px;
+	}
+
+	.slick-dots button {
+	    width: 15px;
+	    height: 15px;
+	}
+
+	.slidershow-box .slick-dots,
+	.slider-content {
+	    max-width: 540px;
+	}
+	.slidershow-box .slick-dots {
+	    bottom: 10px;
+	}
+	.slider-content {
+	    bottom: 40px;
+	}
+	.slider-content p {
+	    margin-bottom: 10px;
+	}
+	.slider-content h3 {
+	    font-size: 30px;
+	    margin-bottom: 5px;
+	}
+
+	.services-title .title,
+	.services-title .title-2 {
+	    left: 0;
+	}
+
+	.art-videos .title {
+		font-size: 30px;
+	}
+
+	.art-introduces .content-tab {
+		padding-right: 0;
+	}
+
+	.art-about-us .title {
+		font-size: 30px;
+	}
+
+	.personnels-title .title {
+		font-size: 30px;
+	}
+
+	.art-histories .banners-content {
+		font-size: 18px;
+	}
+
+	.recruitments-contents .item {
+		width: 100%;
+	}
+
+	.searchs-contents .button {
+	    max-width: 200px;
+	}
+	.searchs-contents .form-control {
+	    max-width: calc(100% - 200px);
+	}
+
+	.art-blogs .item.active,
+	.art-blogs .item {
+	    width: 100%;
+	}
+
+	.art-banners-products .banner-content h3 {
+	    font-size: 24px;
+	    margin-bottom: 10px;
+	}
+
+	.breadcrumb-title .title {
+		font-size: 30px;
+	}
+
+	.recruitment-relate-contents .item {
+		width: calc(100% / 2);
+	}
+
+	.products-title-tab {
+		position: initial;
+	}
+	.products-title-tab .tab-products {
+		flex-wrap: wrap;
+	}
+	.products-title-tab .tab-products li {
+		width: 100%;
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 575px) {
+	.title-2 {
+	    font-size: 30px;
+	}
+	.art-videos .title,
+	.title {
+	    font-size: 20px;
+	}
+	.title-box p {
+		font-size: 14px;
+	}
+
+	.slick-prev {
+	    left: 20px;
+	}
+	.slick-next {
+	    right: 20px;
+	}
+
+	.logos-content {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.header-main .groups-box {
+	    justify-content: space-between;
+	}
+
+	.header-stick .button-box {
+		display: none;
+	}
+	.header-stick .row > * {
+		width: 50%;
+		flex: 0 0 50%;
+	}
+	.header-stick .logos-content {
+		text-align: left;
+		margin-bottom: 0;
+	}
+	.header-stick .groups-box {
+	    justify-content: flex-end;
+	}
+
+	.menu-close {
+		padding-bottom: 0;
+	}
+	.menu-close .logos-content {
+		margin-bottom: 0;
+	}
+
+	.art-brands .title-2 {
+	    font-size: 30px;
+	    left: 0;
+	    top: 10px;
+	}
+
+	.art-introduces .title-tab ul {
+		display: block;
+	}
+	.art-introduces .title-tab a {
+		width: 100%;
+	}
+
+	.slidershow-box .slick-dots,
+	.slider-content {
+		position: initial;
+    	transform: translateX(0);
+		margin-top: 15px;
+	}
+	.slider-content h3 {
+		color: #000;
+	}
+	.slider-content p {
+		color: #666;
+	}
+	.slick-dots button {
+		border-color: #dc0000;
+	}
+
+	.art-banners {
+	    padding: 30px 0;
+	}
+
+	.art-introduces {
+	    padding-top: 60px;
+	}
+
+	.art-services {
+	    padding: 15px 0 60px;
+	}
+	.services-title {
+		margin-bottom: 30px;
+	}
+
+	.art-videos .title-box {
+		margin-bottom: 30px;
+	}
+
+	.art-products {
+	    padding: 10px 0 60px;
+	}
+	.products-title {
+		margin-bottom: 30px;
+	}
+
+	.art-posts {
+	    padding-top: 30px;
+	    padding-bottom: 60px;
+	}
+	.posts-title {
+		margin-bottom: 30px;
+	}
+	.posts-title .title-2 {
+	    top: 0;
+	    left: 0;
+	}
+
+	.personnels-title .title,
+	.art-histories .title,
+	.title-box label {
+		font-size: 20px;
+	}
+	.title-box label {
+		margin-bottom: 15px;
+	}
+
+	.art-histories {
+		padding: 60px 0;
+	}
+	.art-histories .banners-content {
+		font-size: 14px;
+	}
+
+	.art-about-us .banner-box h4,
+	.art-about-us .title {
+		font-size: 20px;
+	}
+	.art-about-us .item {
+		width: 100%;
+	}
+
+	.art-personnels {
+	    padding: 60px 0;
+	}
+	.personnels-title .title {
+		margin-bottom: 30px;
+	}
+
+	.art-about-us {
+		padding: 60px 0;
+	}
+
+	.recruitment-name a {
+		font-size: 20px;
+	}
+
+	.searchs-contents .button {
+	    max-width: 100%;
+	    padding-left: 0;
+	}
+	.searchs-contents .form-control {
+	    max-width: 100%;
+	    margin-bottom: 25px;
+	}
+
+	.art-recruitments {
+		padding: 110px 0 60px;
+	}
+
+	.address-content li {
+		display: block;
+		font-size: 14px;
+	}
+	.address-content li h4 {
+	    font-size: 15px;
+	}
+	.address-content li .button a {
+		margin-top: 5px;
+		display: inline-block;
+	}
+
+	.art-banners-products .banner-content {
+		position: initial;
+		margin-top: 5px;
+	}
+
+	.breadcrumb-title .title {
+		font-size: 20px;
+		margin-bottom: 0;
+	}
+	.breadcrumb-box, .breadcrumb-box a {
+		font-size: 14px;
+	}
+
+	.post-detail-contents .content-footer label {
+		margin-bottom: 5px;
+	}
+
+	.post-detail-title .title {
+		font-size: 20px;
+	}
+
+	.art-recruitment-detail .post-day {
+		font-size: 16px;
+	}
+
+	.recruitment-relate-contents .item {
+		width: 100%;
+	}
+
+	.art-product-detail .content-tab {
+		padding: 15px;
+	}
+
+	.popup-videos iframe {
+		width: 100%;
+	}
+}

@@ -1,0 +1,59 @@
+
+@media (min-width: 576px) {
+	.container {
+	    max-width: 540px;
+	}
+
+	.login-form .bottom-form {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+	    max-width: 720px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+	    max-width: 960px;
+	}
+
+	.login-logo {
+		text-align: left;
+	}
+
+	.main-site {
+		padding: 25px 0;
+	}
+
+	.register-body .logins-box {
+		padding: 0;
+	}
+}
+
+@media (min-width: 1200px) {
+	html, body, .body-main, .main-site {
+		height: 100%;
+	}
+
+	.main-site {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.main-container {
+		width: 100%;
+	}
+	
+	.container {
+		max-width: 1080px;
+	}
+
+	.logins-box-content {
+		padding: 35px 50px;
+	}
+
+}

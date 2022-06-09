@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: UTMHelveBold;
+  src: url("../fonts/UTMHelveBold/UTMHelveBold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/UTMHelveBold/UTMHelveBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/UTMHelveBold/UTMHelveBold.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/UTMHelveBold/UTMHelveBold.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/UTMHelveBold/UTMHelveBold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/UTMHelveBold/UTMHelveBold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/UTMHelveBold/UTMHelveBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

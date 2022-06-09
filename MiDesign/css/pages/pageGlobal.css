@@ -1,0 +1,140 @@
+.page-global {
+  padding-right: 1.5rem;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 100vh;
+  -ms-grid-columns: (1fr)[2];
+  grid-template-columns: repeat(2, 1fr); }
+  .page-global .global__item,
+  .page-global .global__content {
+    position: relative;
+    min-height: 100vh; }
+  .page-global .global__item {
+    position: relative; }
+    .page-global .global__item .layout__after {
+      position: absolute;
+      top: 0;
+      right: -1px;
+      width: 80px;
+      height: 100%;
+      z-index: 999;
+      color: #ffffff; }
+      .page-global .global__item .layout__after svg {
+        width: 100%;
+        height: 100%;
+        fill: currentColor; }
+    .page-global .global__item img {
+      min-height: 100vh; }
+  .page-global .global__content {
+    position: relative; }
+    .page-global .global__content .global__box {
+      max-width: 534px;
+      position: absolute;
+      top: 50%;
+      padding-left: 7rem;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%); }
+      .page-global .global__content .global__box .global__icon {
+        max-width: 4.8rem;
+        margin-bottom: 3.2rem; }
+        .page-global .global__content .global__box .global__icon img {
+          -o-object-fit: contain;
+          object-fit: contain; }
+      .page-global .global__content .global__box .global__title {
+        font-size: 3.6rem;
+        color: #262626;
+        font-weight: bold;
+        line-height: 4.5rem;
+        margin-bottom: 2.9rem; }
+      .page-global .global__content .global__box .global__desc {
+        font-size: 1.4rem;
+        line-height: 3rem;
+        color: #595959; }
+      .page-global .global__content .global__box .global__share {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-top: 4rem; }
+        .page-global .global__content .global__box .global__share .share__link {
+          width: 2.4rem;
+          height: 2.4rem;
+          overflow: hidden;
+          border-radius: 50%;
+          color: #fff;
+          background-color: #000;
+          text-align: center;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+          -moz-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          -moz-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          text-decoration: none; }
+          .page-global .global__content .global__box .global__share .share__link i {
+            margin-top: 0.2rem; }
+          .page-global .global__content .global__box .global__share .share__link:not(:first-child) {
+            margin-left: 1rem; }
+
+@media (max-width: 1366.98px) {
+  .page-global .global__content .global__box {
+    padding-left: 1.5rem; } }
+
+@media (max-width: 1199.98px) {
+  .page-global {
+    padding: 0;
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr); }
+    .page-global .global__item {
+      min-height: unset; }
+      .page-global .global__item .layout__after {
+        display: none; }
+      .page-global .global__item img {
+        min-height: auto;
+        width: 100%;
+        max-height: 200px;
+        -o-object-fit: cover;
+        object-fit: cover; }
+    .page-global .global__content {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      padding-right: 1.5rem; }
+      .page-global .global__content .global__box {
+        position: unset;
+        padding-left: 0;
+        -webkit-transform: unset;
+        -moz-transform: unset;
+        -ms-transform: unset;
+        transform: unset;
+        max-width: 100%; } }
+
+@media (max-width: 991.98px) {
+  .page-global {
+    padding-top: 1.5rem; }
+    .page-global .global__content {
+      padding-left: 1.5rem; }
+      .page-global .global__content .global__box .global__title {
+        font-size: 2.5rem;
+        line-height: 3rem; } }

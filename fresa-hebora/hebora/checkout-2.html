@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Hebora</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.mmenu.all.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="fonts/fontawesome/fontawesome-all.css">
+	<link rel="stylesheet" href="css/nivo-slider.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		.chkout-frm label, .chkout-method label{padding-bottom: 10px;}
+		.chkout-frm label span, .ndck label span, .cart-total, .cart-tt span{color: red}
+		.chkout-method input.form-control{background: #f5f5f5;border: 1px solid #b7b7b7;border-radius: 3px;font-weight: 300;margin-bottom: 20px;}
+
+		.ft {
+		    padding: 35px 0 25px;
+		}
+		.ft-tit {
+		    padding-top: 18px;
+		    padding-bottom: 26px;
+		    font-weight: 400;
+		}
+		.ft-list li {
+		    padding-bottom: 5px;
+		}
+		.w-lg-75 {
+		    width: 70%;
+		}
+		.ft-social {
+		    margin-top: 20px;
+		}
+		.top-menu-btn {
+		    width: auto;
+		}
+
+		@media (min-width: 1300px){
+			.cart-paymethod {
+			    padding-bottom: 900px;
+			}
+		}
+		.file-bill input[type="file"]{position: absolute;opacity: 0;z-index: -1;max-width: 100%	}
+		.file-bill {
+			background: #f5f5f5;
+		    border: 1px solid #b7b7b7;
+		    border-radius: 3px;
+		    font-weight: 300;
+		    margin-bottom: 20px;
+		    height: 38px;
+		    display: block;
+		    cursor: pointer;
+		    overflow: hidden;
+		}
+		.td-text {
+		    position: absolute;
+		    top: 60%;
+		    left: 12px;
+		    transform: translate(0, -50%);
+		    pointer-events: none;
+		    width: 100%;
+		}
+		.td-text:after{content: "\f302";display: inline-block;font-family: "Font Awesome 5 Free";position: absolute;top: -15px;right: 10px;font-size: 30px;background: #f5f5f5;padding: 10px;}
+		@media (min-width: 1200px){
+			.chkout-method {
+			    padding-bottom: 80px;
+			}
+		}
+		.cart-paymethod{margin-bottom: 15px;}
+		@media (max-width: 991px) {
+			.top-wrapmenu {
+			    padding: 10px 0;
+			}
+		}
+		@media(max-width: 767px){
+			.cart-tabs-menu.nav{overflow-x: auto;}
+			.cart-tabs-menu.nav .nav-item{width: 100px;flex: 0 0 100px;}
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper page-checkout">
+		<header class="fixed-top top">
+			<div class="top-wrapmenu">
+				<div class="container">
+					<div class="w-100 d-flex align-items-center justify-content-between top-menu">
+						<!-- logo -->
+						<div class="d-flex align-items-center justify-content-between top-menu-btn">
+							<!-- hamburger menu -->
+							<a id="nav-icon" href="#menu" class="d-lg-none">
+							    <span></span>
+							    <span></span>
+							    <span></span>
+							</a>
+							<a href="index.html" title=""><img src="images/logo.png" alt="" title="" class="logo"></a>
+						</div>
+
+						<!-- menu -->
+						<nav id="menu" class="menu-wrap">
+							<div class="container">
+								<ul class="menu bold text-uppercase index-menu">
+									<li class="active"><a href="index.html" title="" >Trang chủ</a></li>
+									<li><a href="video.html" title="">Videos</a></li>
+									<li><a href="blog.html" title="">Blog</a></li>
+									<li><a href="nguongoc.html" title="">Chứng nhận</a></li>
+									<li><a href="contact.html" title="">Liên hệ</a></li>
+									<li><a href="regis.html" title="">Đăng ký đại lý</a></li>
+								</ul>
+							</div>
+						</nav>
+
+						<a class="btn order-btn" href="cart.html" title="">ĐẶT HÀNG</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="breadcrumbs">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-10 col-sm-12">
+						<ul class="breadcrumb">
+							<li><a href="index.html" title="Trang chủ"><i class="fas fa-home icon icon-home"></i>Trang chủ</a></li>
+							<li><span>Đặt hàng</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main class="chkout ">
+			<div class="container">
+				<form class="row">
+					<div class="col-lg-6 col-md-12">
+						<div class="justify-content-center">
+							<div class="">
+								<h2 class="s14 text-md-left chkout-tit">Thông tin khách hàng</h2>
+
+								<div class="chkout-frm">
+									<!-- <label>Họ tên <span class="">*</span></label> -->
+									<input type="text" class="name form-control" placeholder="Họ tên" required="required">
+									<div class="form-group">
+										<!-- <label>Email <span class="">*</span></label> -->
+										<input type="email" class="email form-control" placeholder="Email" required="required">
+										<!-- <label>Số điện thoại <span class="">*</span></label> -->
+										<input type="tel" class="phone form-control" placeholder="Số điện thoại" required="required">
+									</div>
+									<div class="form-group">
+										<div class="icon-control">
+											<!-- <label>Tỉnh/TP <span class="">*</span></label> -->
+											<select class="form-control">
+												<option value="">Tỉnh / Thành phố</option>
+												<option value="">Hà Nội</option>
+												<option value="">Hà Nội</option>
+											</select>
+											<i class="fas fa-caret-down icon icon-down"></i>
+										</div>
+										<div class="icon-control">
+											<!-- <label>Quận/Huyện <span class="">*</span></label> -->
+											<select class="form-control">
+												<option value="">Quận / Huyện</option>
+												<option value="">Hà Nội</option>
+												<option value="">Hà Nội</option>
+											</select>
+											<i class="fas fa-caret-down icon icon-down"></i>
+										</div>
+									</div>
+									<div class="icon-control">
+										<!-- <label>Quận/Huyện <span class="">*</span></label> -->
+										<select class="form-control">
+											<option value="">Phường / Xã</option>
+											<option value="">Hà Nội</option>
+											<option value="">Hà Nội</option>
+										</select>
+										<i class="fas fa-caret-down icon icon-down"></i>
+									</div>
+									<!-- <label>Địa chỉ chi tiết (địa chỉ đầy đủ để tránh thất lạc hàng, số nhà, ngõ/ngách, đường, phố) <span class="">*</span></label> -->
+									<input type="text" class="address form-control" placeholder="Địa chỉ cụ thể ( ghi rõ số nhà, ngõ, ngách)" required="required">
+									<!-- <label>Ghi chú <span class="">*</span></label> -->
+									<textarea class="form-control" placeholder="Nội dung"></textarea>
+								</div>
+							</div>
+
+							<div class="h-100 chkout-method">
+								<h2 class="s14 text-md-left text-center chkoutmethod-tit chkout-tit">Phương thức thanh toán</h2>
+
+								<div class="cart-paymethod">
+									<ul class="s12 cart-pay-control">
+										<li class="chk-pay-pp">
+											<div class="custom-control control-radio ">
+										      	<input type="radio" class="custom-control-input" name="choice" required="required" >
+										      	<span class="custom-control-indicator"></span>
+										      	<span class="custom-control-description">Thanh toán khi nhận hàng</span>	
+											</div>	
+
+											<div class="chk-pay-pp chk-pay-metho"><p>Khách hàng nhận hàng và thanh toán cho đơn vị vận chuyển.</p></div>
+									    </li>
+										<li class="cart-bank active">
+											<div class="custom-control custom-radio ">
+										      	<input type="radio" class="custom-control-input" name="choice" required="required" checked>
+										      	<span class="custom-control-indicator"></span>
+										      	<span class="custom-control-description">Chuyển khoản</span>
+											</div>
+
+											<div class="cart-bank chk-pay-metho">
+												<ul class="nav nav-pills text-uppercase d-flex align-items-center s12 f1 cart-tabs-menu" role="tablist">
+													<li class="nav-item">
+													   <label>Số tài khoản: </label><span>012346679951</span>
+													</li>
+													<li class="nav-item">
+													   <label>Tên tài khoản: </label><span>Hebora</span>
+													</li>
+													<li class="nav-item">
+														<label>Ngân hàng: </label><span>Vietcombank</span>
+													</li>
+													<li class="nav-item">
+														<label>Nội dung chuyển khoản: </label><span>Mã đơn hàng - SĐT - Tên người nhận</span>
+													</li>
+												</ul>
+											</div>
+									    </li>
+									</ul>
+								</div>
+
+								<p class="">
+									<button type="submit" class="btn text-uppercase chk-btn">Đặt hàng</button>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12 ">
+						<div class="justify-content-lg-start justify-content-center h-100 chkout-r">			
+							<div class="">
+								<h2 class="s14 text-md-left text-center chkout-tit">Thông tin đơn hàng</h2>
+								<div class="table-responsive">
+									<table class="table">
+										<!-- <tr>
+											<th>Hình ảnh</th>
+											<th>Tên sản phẩm</th>
+											<th>Số lượng</th>
+											<th>Đơn giá</th>
+											<th>Thành tiền</th>
+										</tr> -->
+										<tr>
+											<td><img src="images/products/pr-01.png"> </td>
+											<td>Viên uống Hebora <span class="number"><i class="fa fa-minus icon icon-minus"></i><input type="text" name="code" placeholder="2"><i class="fa fa-plus icon icon-plus"></i></span></td>
+											<td class="text-center">Mã đơn hàng <span>HBR01233</span></td>
+											<td class="text-center">Giá <span class="price">1.000.000</span></td>
+										</tr>
+									</table>
+
+									<div class="table-bottom">
+										<div class="cart-tt">Tạm tính: <span class="">2.000.000</span></div>
+										<div class="discount-code">
+											Mã giảm giá: <input type="text" name="code" placeholder="Nhập mã giảm giá/khuyến mãi">
+										</div>
+										<div class="ship-fee">Phí ship: <span class="">50.000</span></div>
+										<div class="cart-tt total-payment">Tổng thanh toán: <span class="">2.000.000</span></div>
+									</div>
+								</div>
+							</div>
+						</div>			
+					</div>
+				</form>
+			</div>
+		</main>
+
+		<footer class="b4">
+			<!-- <div class="to-top"><img src="images/up.png" title="" alt=""></div> -->
+			
+			<div class="ft">
+				<div class="container">
+					<div class="row">
+						<div class="text-lg-left col-lg-5 col-md-6 col-sm-6">
+							<p class="text-lg-left text-center pb-4"><a href="index.html" title=""><img class="" src="images/logoft.png" title="" alt=""></a></p>
+							<!-- <p class="text-lg-left text-center pb-4"><a href="index.html" title=""><img src="images/logoafc.jpg" title="" alt=""></a></p> -->
+							<ul class="list-unstyled slight w-lg-75 ft-add">
+								<li>Nhà sản xuất: AFC – HD Life Science Co.,Ltd - Japan</li>
+								<li>Phân phối độc quyền : Công ty TNHH BEHE Việt Nam</li>
+								<li>Văn phòng giao dịch : Tòa Rainbow, Bắc Linh Đàm, Hoàng Mai, Hà Nội</li>
+								<!-- <li>Hotline: <a href="mailto:0901669112" title="">0901 669 112</a></li> -->
+								<li>Web: <a href="http://Hebora.vn" title="">Hebora.vn</a></li>
+							</ul>
+						</div>
+						
+						<div class="text-lg-left col-lg-4 col-md-6 col-sm-6">
+							<h2 class="s18 ft-tit">HỖ TRỢ KHÁCH HÀNG</h2>
+
+							<ul class="list-unstyled ft-list">
+								<li>Hotline đặt hàng: <a class="medium" href="tel:0901669112" title="">0901669112</a> </li>
+								<li><a href="#" title="">Hướng dẫn đặt hàng</a></li>
+								<li><a href="#" title="">Chính sách đổi trả</a></li>
+								<li><a href="#" title="">Phương thức vận chuyển</a></li>
+								<li><a href="#" title="">Tổng đài hỗ trợ: <span class="medium">0901669112</span></a></li>
+							</ul>
+						</div>
+						<div class="text-lg-left col-lg-3 col-md-6 col-sm-6">
+							<h2 class="s18 ft-tit">HỢP TÁC CÙNG HEBORA</h2>
+							<ul class="list-unstyled ft-list">
+								<li><a href="#" title="">Chính sách đại lý của chúng tôi</a></li>
+								<li><a href="regis.html" title="">Đăng ký hợp tác cùng Hebora</a></li>
+							</ul>
+							<ul class="text-lg-left text-center list-unstyled ft-social">
+								<li><a href="#" title="">
+									<i class="fab fa-facebook-f"></i>
+								</a></li>
+								<li><a href="#" title="">
+									<i class="fab fa-youtube"></i>
+								</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<div class="popup popup-order-success">
+			<div class="popup-content order-success-content">
+				<div class="popup-box order-success-box">
+					<div class="image">
+						<img src="images/cart/cart.png" alt="Cart">
+					</div>
+					<div class="content">
+						<h3 class="title">Đặt hàng thành công</h3>
+						<p>Bộ phận bán hàng sẽ liên hệ để xác nhận và giao hàng cho quý khách. Xin cảm ơn!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<!-- <script src="js/jquery.fancybox.min.js"></script> -->
+	<script src="js/jquery.mmenu.min.all.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="fonts/fontawesome/fontawesome-all.js"></script>
+	<script src="js/jquery.nivo.slider.js"></script>
+	<script src="js/jquery.js"></script>
+	<script>
+		$("#file-bill").change(function(){
+		    console.log(this.files[0].name);
+		    $(this).next('label').text(this.files[0].name);
+		  });
+	</script>
+</body>
+</html>

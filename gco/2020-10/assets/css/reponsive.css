@@ -1,0 +1,321 @@
+
+@media (max-width: 1399px) {
+
+}
+
+@media (max-width: 1199px) {
+	.container {
+	    max-width: 960px;
+	}
+
+	.art-corner-center .banner-content:before {
+	    right: -240px;
+	}
+
+	.art-relaxation-corner {
+		padding: 0 15px;
+	}
+
+	.art-month-face .banners-header .banner-image {
+	    max-width: 400px;
+	}
+
+	.art-training-corner .banner-content .title {
+		font-size: 36px;
+	}
+	.art-training-corner .banner-content .content-2 label {
+		font-size: 26px;
+	}
+	.art-training-corner .banner-content .content-2 label span {
+		font-size: 17px;
+		margin-top: 5px;
+	}
+}
+
+@media (max-width: 991px) {
+	.container {
+	    max-width: 720px;
+	}
+
+	.art-corner-center .banner-content:before {
+	    content: '';
+	    background-image: url(../images/bg-title-3.png);
+	    background-repeat: no-repeat;
+	    width: 320px;
+	    height: 200px;
+	    right: 0;
+	    top: 50px;
+	    background-size: 100%;
+	}
+
+	.art-month-face .banners-header .banner-image {
+	    max-width: 280px;
+	}
+	.art-month-face .banners-header .banner-content {
+	    max-width: 390px;
+	    margin: 0 0 0 15px;
+	}
+
+	.art-month-face .banners-header .banner-content label,
+	.art-month-face .banners-header .banner-content .title {
+		font-size: 36px;
+	}
+	.art-month-face .banners-header .banner-content label span {
+		font-size: 30px;
+	}
+	.art-month-face .banners-header .banner-content p {
+		font-size: 20px;
+	}
+	.art-month-face .item-2 .banner-content .content {
+		display: block;
+	}
+	.art-month-face .item-2 .banner-content .content p {
+		padding-right: 0;
+		margin-bottom: 20px;
+	}
+	.art-month-face .item-2 .banner-content > div {
+		padding-right: 0;
+	}
+
+	.art-birthday .title-box {
+		background-size: 240px;
+	}
+	.art-birthday .title-box > * {
+		max-width: 60%;
+	}
+
+	.art-birthday-company .title-box {
+		padding: 0 15px;
+	}
+
+	.art-training-corner .banner-content .content {
+		width: 100%;
+	}
+	.art-training-corner .banner-content .content-2 label,
+	.art-training-corner .banner-content .content-1 {
+		margin-bottom: 20px;
+	}
+
+	.art-banners-text .header-content label {
+		position: initial;
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
+	.art-banners-text .header-content p {
+		padding: 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+	    max-width: 540px;
+	}
+
+	.title {
+		font-size: 30px;
+	}
+
+	.art-banners-text .title {
+		margin-bottom: 30px;
+	}
+	.art-banners-text .header-content label {
+		font-size: 30px;
+	}
+	.art-banners-text .header-content p,
+	.art-banners-text .header-content {
+		margin-bottom: 0;
+	}
+
+	.art-month-face .banners-header .banner-content label,
+	.art-month-face .banners-header .banner-content .title {
+		font-size: 30px;
+	}
+
+	.art-month-face .banners-header .banner-content,
+	.art-month-face .banners-header .banner-image,
+	.art-month-face .item-2 .banner-content .content img {
+		max-width: 100%;
+	}
+
+	.art-month-face .banners-header .banner-content {
+		margin: 0;
+		margin-top: 30px;
+	}
+	.art-month-face .banners-header .banner-content {
+		padding-left: 0;
+	}
+	.art-month-face .banners-header .banner-content p {
+		margin-top: 30px;
+	}
+	.art-month-face .item-2 .title {
+	    font-size: 60px;
+	    height: 110px;
+	    left: -380px;
+	}
+	.art-month-face .item-2 .banner-content > div {
+		padding-left: 110px;
+	}
+
+	.art-birthday .title-box > * {
+		max-width: 100%;
+	}
+
+	.art-birthday .title-box {
+		padding-top: 180px;
+		background-position: 50% 0;
+	}
+
+	.art-birthday-company .title {
+	    font-size: 30px;
+	    padding-left: 200px;
+	    background-position: -40px 50%;
+	    background-size: 220px;
+	}
+
+	.art-training-corner .banner-content {
+		margin: 0;
+	}
+	.art-training-corner .banner-content .title {
+		font-size: 30px;
+	}
+	.art-training-corner .banner-content .content {
+		padding: 0;
+	}
+
+	.art-happy-strangers .banner-content .title {
+		font-size: 30px;
+	}
+
+	.art-corner-center .banner-content .content {
+		position: relative;
+		z-index: 9;
+	}
+
+	.art-recruitment .banners-box {
+		margin: 0;
+	}
+	.art-recruitment .title-box,
+	.art-recruitment .contents {
+		width: 100%;
+		padding: 0;
+	}
+	.art-recruitment .title-box img {
+		margin-bottom: 20px;
+	}
+	.art-recruitment .contents {
+		margin-top: 30px;
+	}
+	.art-recruitment .banner-content label {
+		font-size: 30px;
+	}
+	.art-recruitment .item-1 .banner-content {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	.art-recruitment .banner-content .content:last-child {
+		margin-top: 20px;
+	}
+
+	.art-birthday-company, 
+	.art-month-face .title-box, 
+	.art-funny-question .title-box, 
+	.art-recruitment .title-box, 
+	.art-corner-center .title-box, 
+	.art-happy-strangers .title-box, 
+	.art-training-corner .title-box, 
+	.art-birthday .title-box {
+	    margin-top: 50px;
+	}
+
+	.art-banners-footer {
+		padding: 50px 0;
+	}
+}
+
+@media (max-width: 575px) {
+	.art-month-face .banners-header .banner-content label,
+	.art-month-face .banners-header .banner-content .title,
+	.art-banners-text .header-content label,
+	.title {
+		font-size: 25px;
+	}
+
+	.art-banners-text .banner-content {
+	    text-align: left;
+	}
+
+	.art-month-face .item {
+		padding: 15px 0;
+	}
+	.art-month-face .item-2 .title {
+	    transform: rotate(0);
+	    position: initial;
+	    font-size: 34px;
+	    height: auto;
+	    margin-bottom: 20px;
+	}
+	.art-month-face .item-2 .title:before {
+		width: 80px;
+		height: 24px;
+	}
+	.art-month-face .item-2 .banner-content > div {
+		padding-left: 0;
+		margin: 0;
+	}
+
+	.art-birthday-company .title {
+		font-size: 25px;
+	    padding-left: 0;
+	    padding-top: 140px;
+	    background-position: 20% 0;
+	}
+
+	.art-training-corner .banner-content .content-2 label {
+	    font-size: 20px;
+	}
+	.art-training-corner .banner-content .content-2 label span {
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+	.art-training-corner .banner-image {
+		padding-top: 30px !important;
+	}
+
+	.art-happy-strangers .banner-content .title {
+	    font-size: 25px;
+	    margin-bottom: 30px;
+	}
+	.art-happy-strangers .banner-image {
+		padding-top: 30px !important;
+	}
+
+	.art-corner-center .title-box p {
+		font-size: 20px;
+	}
+	.art-corner-center .banner-content:before {
+		width: 300px;
+		top: 15px;
+	}
+	.art-corner-center .banner-content .content {
+		padding-top: 160px;
+	}
+	.art-corner-center .banner-content label {
+		font-size: 20px;
+		margin-top: 30px;
+	}
+
+	.art-recruitment .banner-content label {
+		font-size: 25px;
+	}
+	.art-recruitment .banner-content .content h4 a {
+		font-size: 20px;
+	}
+
+	.art-banners-text .banner-content {
+		display: block;
+	}
+	.art-banners-text .banner-content .content:last-child {
+		text-align: left !important;
+		margin-top: 20px;
+	}
+}

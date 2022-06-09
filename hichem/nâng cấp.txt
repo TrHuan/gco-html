@@ -1,0 +1,26 @@
+- thay button 'đăng ký đại lý' thành 'đăng nhập' và submenu 'đăng nhập, đăng ký' - khi đăng nhập thì thay bằng 'icon user'
+
+- thay button 'đăng ký đại lý' thành 'icon tìm kiếm' và submenu from tìm kiếm
+
+- page chi tiết sản phẩm: - thêm from liên hệ
+						  - rút gọn mô tả sản phẩm thêm button 'xem thêm'
+
+- page chi tiết tin tức: - thêm from liên hệ
+						 - thêm sản phẩm khác
+						 - rút gọn mô tả sản phẩm thêm button 'xem thêm'
+
+- cắt page faqs
+
+- cắt page cảm ơn
+
+//////////////////////////////////////////////////////////////////////
+
+- thêm popup người mua hàng
+
+- thêm popup phản hồi
+
+- cắt page quản lý tài khoản
+
+- cắt page quản lý mật khẩu
+
+- cắt page quản lý đơn hàng

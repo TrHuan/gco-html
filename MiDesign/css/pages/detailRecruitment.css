@@ -1,0 +1,120 @@
+#myModal .content-modal {
+  max-width: 582px;
+  padding: 3rem 5rem; }
+  #myModal .content-modal .close__modal {
+    cursor: pointer; }
+  #myModal .content-modal .modal__title {
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.4rem; }
+  #myModal .content-modal input,
+  #myModal .content-modal textarea {
+    outline: none;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    padding: 0 1.5rem; }
+    #myModal .content-modal input:focus,
+    #myModal .content-modal textarea:focus {
+      outline: none; }
+    #myModal .content-modal input::-webkit-input-placeholder, #myModal .content-modal textarea::-webkit-input-placeholder {
+      font-size: 1.5rem;
+      color: #a6a6a6;
+      font-weight: 300;
+      font-family: Arial, sans-serif; }
+    #myModal .content-modal input::-moz-placeholder, #myModal .content-modal textarea::-moz-placeholder {
+      font-size: 1.5rem;
+      color: #a6a6a6;
+      font-weight: 300;
+      font-family: Arial, sans-serif; }
+    #myModal .content-modal input:-ms-input-placeholder, #myModal .content-modal textarea:-ms-input-placeholder {
+      font-size: 1.5rem;
+      color: #a6a6a6;
+      font-weight: 300;
+      font-family: Arial, sans-serif; }
+    #myModal .content-modal input::-ms-input-placeholder, #myModal .content-modal textarea::-ms-input-placeholder {
+      font-size: 1.5rem;
+      color: #a6a6a6;
+      font-weight: 300;
+      font-family: Arial, sans-serif; }
+    #myModal .content-modal input::placeholder,
+    #myModal .content-modal textarea::placeholder {
+      font-size: 1.5rem;
+      color: #a6a6a6;
+      font-weight: 300;
+      font-family: Arial, sans-serif; }
+  #myModal .content-modal input {
+    height: 4rem; }
+  #myModal .content-modal .form__row {
+    margin-bottom: 2rem; }
+  #myModal .content-modal textarea {
+    padding-top: 1.5rem;
+    min-height: 121px; }
+  #myModal .content-modal .uploadFile {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    position: relative; }
+    #myModal .content-modal .uploadFile::after {
+      content: "(" attr(data-name) ")";
+      position: absolute;
+      left: -webkit-calc(7.8rem + 1.7rem);
+      left: -moz-calc(7.8rem + 1.7rem);
+      left: calc(7.8rem + 1.7rem);
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      font-size: 1.4rem;
+      color: #262626; }
+    #myModal .content-modal .uploadFile input {
+      display: none; }
+    #myModal .content-modal .uploadFile span {
+      font-size: 1.4rem;
+      color: #262626;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -moz-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      width: 7.8rem;
+      height: 2.4rem;
+      border: 1px solid #d7d7d7;
+      background-color: #ebebeb;
+      text-align: center; }
+  #myModal .content-modal .body-modal {
+    margin-top: 3rem; }
+
+@media (max-width: 576.98px) {
+  #myModal .content-modal {
+    padding: 1.5rem; } }
+
+.detail-recruitment {
+  max-width: 687px;
+  width: 100%;
+  margin: auto;
+  padding-top: 6.9rem;
+  color: #262626;
+  font-size: 1.5rem;
+  line-height: 2.4rem; }
+  .detail-recruitment .detail__title {
+    line-height: 2.4rem;
+    font-size: 2.4rem;
+    color: #0d0d0d; }
+  .detail-recruitment .detail__address a {
+    color: #262626; }
+  .detail-recruitment .detail__desc h3 {
+    font-size: 1.5rem; }
+  .detail-recruitment .detail__desc ul {
+    padding-left: 1.6rem; }
+
+@media (max-width: 991.98px) {
+  .detail-recruitment {
+    padding-top: 3rem; }
+    .detail-recruitment .detail__title {
+      line-height: 3rem; } }

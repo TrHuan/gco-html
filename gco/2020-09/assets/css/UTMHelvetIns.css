@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "UTMHelvetIns";
+  src: url("../fonts/UTMHelvetIns/UTMHelvetIns.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/UTMHelvetIns/UTMHelvetIns.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/UTMHelvetIns/UTMHelvetIns.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/UTMHelvetIns/UTMHelvetIns.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/UTMHelvetIns/UTMHelvetIns.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/UTMHelvetIns/UTMHelvetIns.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/UTMHelvetIns/UTMHelvetIns.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,513 @@
+@media (max-width: 1329px) {
+
+}
+
+@media (max-width: 1199px) {
+	.container {
+	    max-width: 960px;
+	}
+
+	.menu-top-content ul {
+		margin: 0 -20px;
+	}
+	.menu-top-content li {
+		padding: 0 20px;
+	}
+
+	.footer-categories {
+	    padding-left: 0;
+	}
+
+	.art-product-improvement .searchs-content .form-group {
+		max-width: 100%;
+	}
+	.art-product-improvement .blog-image {
+		max-width: 320px;
+	}
+	.art-product-improvement .blog-content {
+	    max-width: calc(100% - 320px);
+	}
+
+	.art-administration-system .description {
+		padding-right: 15px;
+		max-width: calc(100% - 180px);
+	}
+	.art-administration-system .title-box .button {
+		max-width: 180px;
+	}
+
+	.art-diagram-system .blog-content .description {
+		padding-left: 15px;
+	}
+	.art-diagram-system .item-2 .blog-content .description {
+		padding-right: 15px;
+	}
+
+	.art-diagram-system .blog-content .button {
+		max-width: 180px;
+	}
+	.art-diagram-system .blog-content .description {
+		max-width: calc(100% - 180px);
+	}
+
+	.art-achievements .tab-achievements a {
+		font-size: 14px;
+	}
+	.art-achievements .tab-achievements a .icon {
+	    margin-right: 5px;
+	}
+
+	.art-communications .contact-box {
+	    padding-right: 0;
+	}
+
+	.title-tab .tab-libraries a {
+		padding: 9px 50px;
+	}
+	.library-videos li, .library-images li {
+		width: calc(100% / 3);
+	}
+	.tab-libraries-2 {
+		flex-wrap: wrap;
+		margin: 0 -15px;
+	}
+	.tab-libraries-2 > li {
+		width: calc(100% / 3);
+		padding: 0 15px;
+	}
+	.tab-libraries-2 > li:nth-child(3n):after {
+		display: none !important;
+	}
+
+	.art-libraries .logo-box .groups-box {
+		margin: 0 -15px;
+	}
+	.art-libraries .logo-box .groups-box li {
+		padding: 0 15px;
+	}
+
+	.art-raw-material-area .title {
+		padding-right: 0;
+	}
+
+	.art-communications-2 .title {
+		padding-right: 0;
+	}
+
+	.art-activity-news .contents-box .content.active,
+	.art-activity-news .contents-box .content {
+		width: 100%;
+	}
+	.art-activity-news .blog-image {
+	    max-width: 180px;
+	}
+	.art-product-improvement .blog-content {
+	    max-width: calc(100% - 180px);
+	}
+	.art-activity-news .active .blog-image a {
+		display: block;
+	}
+	.art-activity-news .active .blog-image img {
+		width: 100%;
+	}
+
+	.title-tab .tab-member-units a {
+	    padding: 10px 15px;
+	    font-size: 15px;
+	}
+
+	.tab-member-units .content-box .banner-image {
+	    max-width: 280px;
+	}
+	.tab-member-units .content-box .banner-content {
+	    max-width: calc(100% - 280px);
+	}
+
+	.title-tab .tab-quality-management {
+		flex-wrap: wrap;
+	}
+	.title-tab .tab-quality-management li {
+		width: calc(100% / 2);
+		margin-top: 10px;
+	}
+	.title-tab .tab-quality-management a {
+		display: block;
+	}
+	.title-tab .tab-quality-management a:before {
+		display: none;
+	}
+	.title-tab .tab-quality-management a {
+		padding-left: 10px;
+	}
+
+	.history-box .history-content {
+   		max-width: 280px;
+   	}
+   	.histories-box .item:nth-child(2n) .history-content {
+	    left: -25px;
+	}
+	.histories-box .item:nth-child(2n + 1) .history-content {
+		left: 25px;
+	}
+	.histories-box .item:first-child .history-content {
+		left: 0;
+	}
+
+	.list-medal-box .history-content {
+	    max-width: 370px;
+	}
+	.art-achievements .lists-medal-box .item .history-content {
+		left: 0;
+	}
+
+	.title-tab .tab-nutrition-people {
+		flex-wrap: wrap;
+	}
+	.title-tab .tab-nutrition-people li {
+		width: 50%;
+		padding-top: 15px;
+	}
+}
+
+@media (max-width: 991px) {
+	.container {
+	    max-width: 720px;
+	}
+
+	.megamenu ul {
+		display: block;
+		width: 100%;
+	}
+	.megamenu li {
+		margin: 0;
+	}
+	.megamenu .menu-nav a:after {
+		display: none;
+	}
+	.megamenu .menu-nav .item-sub > a {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 14px 0 !important;
+	}
+	.megamenu .menu-nav .item-sub > a span {
+		display: flex;
+		align-items: center;
+	}
+	.megamenu .menu-nav .item-sub > a .icon {
+		font-size: 22px;
+	}
+	.megamenu .menu-nav .item-sub > a.active .icon {
+		display: none;
+	}
+	.megamenu .menu-nav .item-sub > a.active .icon-minus {
+		display: block;
+	}
+	.megamenu .megamenu-dropdown {
+		padding-right: 0;
+	}
+	.megamenu-dropdown .container {
+		padding: 0;
+	}
+
+	.menu-top-box {
+		top: 0;
+		padding: 25px 0 10px;
+	}
+	.menu-top-content ul {
+		margin: 0 -15px;
+		justify-content: center;
+	}
+	.menu-top-content li {
+		padding: 0 15px;
+	}
+
+	.sidebars-box {
+		margin-bottom: 50px;
+	}	
+
+	.list-medal-box .history-content {
+	    max-width: 400px;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.container {
+	    max-width: 540px;
+	}
+
+	.art-improvement-innovation .blog-image img {
+		width: 100%;
+	}
+
+	.art-product-improvement .blog-image,
+	.art-product-improvement .blog-content {
+	    max-width: 100%;
+	}
+	.art-product-improvement .blog-image {
+		margin-bottom: 20px;
+	}
+	.art-product-improvement .blog-image a {
+		display: block;
+	}
+	
+	.art-administration-system .description {
+		max-width: 100%;
+	}
+	.art-administration-system .description {
+		padding-right: 0;
+		margin-bottom: 20px;
+	}
+
+	.art-diagram-system .blog-content {
+		flex-direction: column-reverse;
+	}
+	.art-diagram-system .blog-content .description {
+		max-width: 100%;
+		padding-left: 0;
+		margin-bottom: 20px;
+	}
+	.art-diagram-system .item-2 .blog-content {
+		flex-direction: column;
+	}
+	.art-diagram-system .item-2 .blog-content .description {
+		padding-right: 0;
+	}
+
+	.art-communications .groups-box .item {
+		width: 100%;
+	}
+
+	.library-videos li, .library-images li {
+		width: 50%;
+	}
+
+	.art-communications-2 .blogs-box {
+		width: 100%;
+		padding: 0;
+		margin-bottom: 20px;
+	}
+	.art-communications-2 .blogs-box:last-child {
+		margin-bottom: 0;
+	}
+	.art-communications-2 .layout-blogs {
+		margin: 0;
+	}
+
+	.tab-member-units .content-box .banner-image,
+	.tab-member-units .content-box .banner-content {
+	    max-width: 100%;
+	}
+	.tab-member-units .content-box .banner-image {
+		margin-bottom: 15px;
+	}
+
+	.title-tab .tab-member-units {
+		margin: -10px;
+		flex-wrap: wrap;
+	}
+	.title-tab .tab-member-units li {
+		width: 50%;
+		padding: 10px;
+	}
+	.title-tab .tab-member-units a {
+		display: block;
+	}
+
+	.title-tab .tab-quality-management li {
+		width: 100%;
+	}
+	.title-tab .tab-quality-management a:after {
+		display: none;
+	}
+
+	.main-site {
+	    overflow: hidden;
+	}
+
+	.personnels-contents .personnel-box {
+		width: 100%;
+	}
+
+	.personnels-contents .banner-image,
+	.personnels-contents .swiper-slide-active .banner-image {
+		padding: 0;
+	}
+
+	.history-box .history-content {
+   		max-width: calc(100% - 64px);
+   	}
+   	.histories-box .item:first-child .history-content {
+   		max-width: 100%;
+   	}
+   	.histories-box .item:nth-child(2n + 1) .history-content,
+   	.histories-box .item:nth-child(2n) .history-content {
+   		left: 60px;
+	    transform: translateX(0);
+   	}
+   	.histories-box .item:first-child .history-content {
+   		left: 0;
+   	}
+   	.history-box .history-content:before {
+   		right: auto;
+	    left: -10px;
+	    border-right: 10px solid #9b5903;
+	    border-left: 0 solid transparent;
+   	}
+   	.histories-box {
+   		align-items: flex-start;
+   	}
+   	.history-box .circle {
+   		margin: 0;
+   		margin-left: 12px;
+   	}
+   	.history-box .circle.year {
+   		margin: 35px 0 60px;
+   	}
+   	.histories-box:before {
+   		left: 32px;
+   	}
+
+   	.medal-box {
+   		display: block;
+   		text-align: center;
+   	}
+
+   	.art-achievements .lists-medal-box .item .history-content {
+   		transform: translateX(0) !important;
+   		padding-right: 0;
+   	}
+   	.lists-medal-box:before {
+	    left: 0;
+	}
+	.list-medal-box .item:nth-child(2n + 1) .history-content,
+	.list-medal-box .item:nth-child(2n) .history-content {
+		left: 0;
+	}
+	.art-achievements .list-medal-box .history-content:after {
+		right: auto;
+		left: 40px;
+	}
+	.art-achievements .list-medal-box .history-content:before {
+		right: auto;
+		left: 0;
+	}
+	.list-medal-box .history-content {
+	    max-width: 100%;
+	}
+	.lists-medal-box {
+		margin: 40px 0;
+	}
+	.medal-box-2 > label,
+	.medal-box-3 > label {
+		display: block;
+		text-align: left;
+		margin-top: 25px;
+	}
+
+	.art-company-nct3 {
+		padding-bottom: 22px;
+	}
+	.art-company-nct3 .histories-box .item:first-child .history-content {
+	    left: 60px;
+	    transform: translateX(0);
+	}
+	.art-company-nct3 .histories-box:before {
+		height: calc(100% - 58px);
+	}
+	.histories-box .item:first-child .history-content {
+	    max-width: calc(100% - 64px);
+	}
+
+	.art-achievements .lists-medal-box .item .history-content {
+		left: 0;
+		width: 100%;
+		max-width: 100%;
+	}
+	.art-achievements .lists-medal-box .item:first-child:before,
+	.art-achievements .lists-medal-box .item:last-child:before {
+	    left: 0;
+	}
+	.art-achievements .lists-medal-box .item:last-child:before {
+		top: 0;
+	}
+
+	.tab-content .title-tab ul {
+	    padding-right: 15px;
+	}
+
+	.tab-nutrition-people-2 .groups-box > .content {
+		max-width: 100%;
+	}
+	.tab-nutrition-people-2 .groups-box > .image {
+		max-width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 575px) {
+	.newsletters-title .title,
+	.title {
+		font-size: 24px;
+	}
+	.art-improvement-innovation .title label {
+		font-size: 18px;
+	}
+
+	.art-achievements .tab-achievements {
+		flex-wrap: wrap;
+		margin: -10px 0;
+	}
+	.art-achievements .tab-achievements li {
+		width: 100%;
+		padding: 10px 0;
+	}
+	.art-achievements .tab-achievements.contents-box {
+		margin: 0;
+		padding: 0;
+		position: relative;
+		display: block;
+	}
+
+	.title-tab .tab-libraries a {
+	    padding: 9px 25px;
+	}
+	.library-videos li, .library-images li {
+		width: 100%;
+	}
+
+	.art-product-improvement .searchs-content .form-control {
+		max-width: 100%;
+		margin-right: 0;
+		margin-bottom: 10px;
+		margin-top: 5px;
+	}
+
+	.title-tab .tab-member-units li {
+		width: 100%;
+	}
+
+	.title-tab .tab-personnels {
+		flex-wrap: wrap;
+		margin: -5px;
+	}
+	.title-tab .tab-personnels li {
+		width: 50%;
+		padding: 5px;
+	}
+	.title-tab .tab-personnels li a {
+		display: block;
+	}
+
+	.title-tab .tab-nutrition-people li {
+		width: 100%;
+	}
+	.tab-nutrition-people .title {
+		position: initial;
+		max-width: 100%;
+		margin-bottom: 0;
+		margin-top: 30px;
+	}
+}

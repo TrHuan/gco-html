@@ -1,0 +1,259 @@
+
+@media (max-width: 1199px) {
+	footer .container,
+	.container {
+	    max-width: 960px;
+	}
+
+	.footer-content li,
+	.footer-content a {
+		white-space: initial;
+	}
+
+	.megamenu-content a {
+		font-size: 13px;
+	}
+	.main-sticky .megamenu-content li {
+	    margin-right: 5px;
+	}
+
+	.products-grid .grid {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.blog-name {
+	    padding-right: 0;
+	}
+
+	.order-table .content-table .product-name {
+	    padding: 15px;
+	}
+
+	.art-shipment-details .row {
+		margin: 0 -15px;
+	}
+	.art-shipment-details .row > div {
+	    padding: 0 15px;
+	}
+
+	.art-order-success .row {
+		margin: 0 -15px;
+		padding: 0;
+	}
+	.art-order-success .row > div {
+		padding: 0 15px;
+	}
+
+	.popup-product-image .popup-content {
+		width: 35%;
+	}
+}
+
+@media (max-width: 991px) {
+	/*.container {
+	    max-width: 540px;
+	}
+	*/
+	.m-order-1 {
+		order: 1;
+	}
+	.m-order-2 {
+		order: 2;
+	}
+	.m-order-3 {
+		order: 3;
+	}
+
+	.megamenu-mobile {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.menu-open {
+		margin: 0;
+		width: 30px;
+		height: 30px;
+		top: 3px;
+	}
+	.menu-open span {
+		top: 0;
+	}
+	.menu-open span, .menu-open span:before, .menu-open span:after {
+		height: 2px;
+		background-color: #333;
+	}
+	.menu-close {
+		padding: 15px 15px 0;
+	}
+	.menu-close .close {
+		color: #333;
+		font-size: 50px;
+	}
+	.mobile-content {
+	    margin-top: 0;
+	}
+	.menu-content .nav ul {
+	    flex-direction: column;
+	}
+	.menu-content .nav ul li {
+		margin: 0;
+	}
+	.main-sticky .megamenu-content a {
+	    padding: 10px 0 !important;
+	}
+	.megamenu-mobile .menu-content {
+		overflow-y: scroll;
+	}
+
+	/*.main-sticky {
+		display: none;
+	}*/
+
+	.main-sticky .top-bar {
+	    display: flex;
+	    align-items: center;
+	    justify-content: flex-end;
+	}
+
+	.search-content {
+	    margin: 0 auto;
+	}
+
+	.top-bar .layout-col {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+	.top-bar .socials-box {
+	    position: initial;
+	    margin-right: 30px;
+	}
+
+	.header-bar {
+		padding-top: 0;
+	}
+
+	.sidebar-title .title {
+		text-align: left;
+		position: relative;
+	}
+	.sidebar-title .title:after {
+	    content: "\f067";
+	    font-family: FontAwesome;
+	    display: block;
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	}
+	.sidebar-title.active .title:after {
+		content: "\f068";
+	}
+	.sidebar-content {
+		display: none;
+	}
+
+	.products-like-box,
+	.product-detail-images {
+	    padding: 0;
+	}
+
+	.blogs-grid .grid {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.order-table {
+		overflow-x: auto;
+	}
+	.order-table table {
+		width: 900px;
+	}
+	.order-total,
+	.order-button {
+		text-align: left;
+	}
+
+	.popup-product-image .popup-content {
+		width: 45%;
+	}
+}
+
+@media (max-width: 767px) {
+	.top-bar .socials-box li {
+	    margin-left: 10px;
+	}
+	.top-bar .socials-box {
+	    margin-right: 10px;
+	}
+
+	.blogs-grid .grid,
+	.products-grid .grid,
+	.products-box .grid {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.popup-product-image .popup-content {
+	    width: 56%;
+	}
+}
+
+@media (max-width: 575px) {
+	.title {
+	    font-size: 20px !important;
+	    line-height: 1.5em;
+	}
+
+	.logo {
+		margin-bottom: 12px;
+	}
+
+	.search-content .form-control {
+		font-size: 13px;
+	}
+
+	.main-sticky .logo {
+		margin: 0;
+	}
+	.main-sticky .m-order-2 {
+		display: none;
+	}
+	
+	.blogs-grid .grid,
+	.products-grid .grid,
+	.products-box .grid,
+	.banners-box .grid {
+		grid-template-columns: 1fr;
+	}
+
+	.shipment-form .form-group-phone,
+	.shipment-form .form-group-email {
+		max-width: 100%;
+		margin-right: 0;
+	}
+	.shipment-form .form-group-address-2 {
+		display: block;
+	}
+	.shipment-form .form-group-address-2 select {
+		width: 100%;
+		margin: 0 0 15px 0;
+	}
+	.products-cart .content {
+		display: block;
+	}
+	.products-cart .price,
+	.products-cart .name {
+		padding: 0 0 0 15px;
+	}
+	.order-confirm {
+		font-size: 12px;
+	}
+
+	.shipment-details-button p {
+		padding: 15px 0;
+	}
+	.shipment-details-button .btn {
+		float: left;
+	}
+
+	.popup-product-image .popup-content {
+	    width: 80%;
+	}
+}

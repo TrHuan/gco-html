@@ -1,0 +1,503 @@
+@media (max-width: 1109px) {
+	.advantage-chart-box .content {
+	    padding: 0 15px;
+	}
+
+	.follow-box,
+	.footer-menu {
+	    padding-left: 0;
+	}
+
+	.video-title .title {
+		margin-bottom: 40px;
+	}
+
+	.ecosystem-content {
+		max-width: 962px;
+	}
+	.ecosystem-content .ecosystem-app {
+		top: -13%;
+	}
+	.ecosystem-content .ecosystem-artificial {
+	    top: 44%;
+	    left: 13%;
+	}
+	.ecosystem-content .ecosystem-spam {
+		top: -13%;
+		right: 2%;
+	}
+	.ecosystem-content .ecosystem-money {
+	    top: 43%;
+	    right: 9%;
+	}
+
+	.road-map-content {
+		max-width: 962px;
+	}
+	.road-map-content li {
+		right: 134px;
+	}
+	.road-map-content .t2-2023, 
+	.road-map-content li.t7-2020 {
+	    right: 262px;
+	}
+	.road-map-content .t4-2022,
+	.road-map-content li.t8-2020 {
+	    right: 390px;
+	}
+	.road-map-content .t9-2021,
+	.road-map-content li.t9-2020 {
+	    right: 515px;
+	}
+	.road-map-content .t5-2021,
+	.road-map-content li.t10-2020 {
+	    right: 645px;
+	}
+	.road-map-content li.t1-2021,
+	.road-map-content li.t12-2020 {
+	    right: 770px;
+	}
+
+	.about-insa {
+	    margin-bottom: 10px;
+	}
+
+	.video {
+	    margin-bottom: 70px;
+	}
+
+	.founder {
+	    margin-bottom: 70px;
+	}
+	.founder-title .title {
+	    margin-bottom: 50px;
+	}
+
+	.presentation {
+	    margin-bottom: 100px;
+	}
+
+	.ecosystem {
+	    margin-bottom: 85px;
+	}
+
+	.road-map {
+	    margin-bottom: 195px;
+	}
+	.road-map-title {
+	    margin-bottom: 170px;
+	}
+
+	.insa-sale-plan {
+	    margin-bottom: 45px;
+	}
+	.insa-sale-plan-title {
+	    margin-bottom: 10px;
+	}
+
+	.aladiex-token {
+	    margin-bottom: 80px;
+	}
+
+	.token {
+	    margin-bottom: 100px;
+	}
+	.token-title {
+	    margin-bottom: 35px;
+	}
+
+	.future-token {
+	    margin-bottom: 80px;
+	}
+
+	.distribution {
+	    margin-bottom: 80px;
+	}
+	.distribution-title {
+	    margin-bottom: 25px;
+	}
+
+	.investment-process {
+	    margin-bottom: 90px;
+	}
+	.investment-process-title {
+	    margin-bottom: 45px;
+	}
+
+	.slick-founder {
+	    padding-bottom: 15px;
+	}
+
+	.dec-title {
+	    font-size: 66px;
+	}
+
+	.aladiex-token-image {
+	    right: 0;
+	}
+}
+
+@media (max-width: 991px) {
+	.adaptive-menu #close_menu {
+		display: none !important;
+	}
+	.adaptive-menu__open {
+	    position: absolute;
+	    margin: 0;
+	    top: -5px;
+	    right: 8px;
+	    left: auto;
+	}
+	.adaptive-menu {
+		left: auto;
+		right: 0;
+		background: #182242;
+		transform: translateX(324px);
+	}
+	.adaptive-menu:before {
+	    content: "\f00d";
+	    font-family: FontAwesome;
+	    color: #d6493e;
+	    font-size: 40px;
+	    position: absolute;
+	    left: 15px;
+	    top: 30px;
+	}
+	.adaptive-menu--is-visible {
+		transform: translateX(0);
+	}
+	.menu-nav {
+		padding: 0 20px;
+	}
+
+	.presentation-content {
+		padding: 0;
+		margin-bottom: 25px;
+	}
+
+	.insa-sale-plan-content {
+	    grid-template-columns: 1fr 1fr;
+	}
+
+	.aladiex-token-box {
+		display: block;
+	}
+	.aladiex-token-content {
+		max-width: 100%;
+		margin-bottom: 25px;
+	}
+
+	.distribution-content {
+	    grid-template-columns: 1fr;
+	}
+	.token-distribution {
+		margin-bottom: 25px;
+	}
+
+	.investment-process-content {
+	    grid-template-columns: 1fr;
+	}
+	.investment-process-box {
+		margin: 0;
+		margin-bottom: 25px;
+	}
+	.investment-process-box:last-child {
+		margin-bottom: 0;
+	}
+
+	.advantage-box {
+		grid-template-columns: 1fr;
+	}
+	.safety-growth-box .advantage-box .content {
+		margin-bottom: 25px;
+		padding: 0;
+	}
+	.safety-growth-box .advantage-box .content:last-child {
+		margin: 0;
+	}
+
+	.grow-strongly-box .advantage-box {
+		padding: 0;
+	}
+	.grow-strongly-box .content {
+	    padding: 0;
+	}
+
+	.founder-content {
+	    padding-left: 30px;
+	    padding-right: 30px;
+	}
+	.slick-prev {
+		left: -30px;
+	}
+	.slick-next {
+		right: -30px;
+	}
+
+	.ecosystem-content .ecosystem-app {
+		left: 1%;
+	}
+	.ecosystem-content .ecosystem-artificial {
+	    top: 43%;
+	    left: 12%;
+	}
+	.ecosystem-content .ecosystem-trust {
+	    top: 73%;
+	    left: 36%;
+	}
+	.ecosystem-content .ecosystem-money {
+	    top: 43%;
+	    right: 6%;
+	}
+	.ecosystem-content .ecosystem-spam {
+		right: 0;
+	}
+	.ecosystem-content {
+		max-width: 738px;
+	}
+
+	.road-map-content {
+	    max-width: 738px;
+	}
+	.road-map-content li {
+	    right: 90px;
+	}
+	.road-map-content .t2-2023, 
+	.road-map-content li.t7-2020 {
+	    right: 190px;
+	}
+	.road-map-content .t4-2022,
+	.road-map-content li.t8-2020 {
+	    right: 288px;
+	}
+	.road-map-content .t9-2021, 
+	.road-map-content li.t9-2020 {
+	    right: 384px;
+	}
+	.road-map-content .t5-2021,
+	.road-map-content li.t10-2020 {
+	    right: 484px;
+	}
+	.road-map-content li.t1-2021, 
+	.road-map-content li.t12-2020 {
+	    right: 580px;
+	}
+	.road-map-content li .time {
+		font-size: 14px;
+	}
+
+	.presentation-box {
+	    margin-top: 0;
+	}
+
+	.address-box {
+	    padding-right: 0;
+	}
+
+	.about-box {
+	    padding-top: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+	.insa-sale-plan-box .content .number {
+		font-size: 28px;
+	}
+
+	.aladiex-token-image {
+		right: 0;
+	}
+
+	.future-token-box {
+	    padding: 0;
+	}
+
+	.early-late-content p:after, .early-late-content p:before {
+		width: 50px;
+	}
+	.early-late-content span {
+		margin-left: 5px;
+	}
+	.early-late-content .text-late {
+		margin-right: 5px;
+	}
+
+	.ecosystem-content {
+		max-width: 546px;
+	}
+	.ecosystem-content li img {
+		max-width: 45px;
+	}
+	.ecosystem-content li span {
+		font-size: 13px;
+	}
+	.ecosystem-content .ecosystem-app {
+	    left: 0;
+	    top: -14%;
+	}
+	.ecosystem-content .ecosystem-artificial {
+	    top: 41%;
+	    left: 10%;
+	}
+	.ecosystem-content .ecosystem-trust {
+	    top: 70%;
+	    left: 31%;
+	}
+	.ecosystem-content .ecosystem-money {
+	    right: 3%;
+	}
+	.ecosystem-content .ecosystem-spam {
+	    right: -2%;
+	}
+
+	.road-map-content li .time {
+	    font-size: 12px;
+	}
+	.road-map-content li span:not(.time) {
+	    width: 70px;
+	}
+	.road-map-content li {
+		right: 45px;
+	    font-size: 10px;
+	}
+	.road-map-content .t2-2023,
+	.road-map-content li.t7-2020 {
+	    right: 125px;
+	}
+	.road-map-content .t4-2022,
+	.road-map-content li.t8-2020 {
+	    right: 200px;
+	}
+	.road-map-content .t9-2021, 
+	.road-map-content li.t9-2020 {
+	    right: 275px;
+	}
+	.road-map-content .t5-2021,
+	.road-map-content li.t10-2020 {
+	    right: 350px;
+	}
+	.road-map-content li.t1-2021,
+	.road-map-content li.t12-2020 {
+	    right: 425px;
+	}
+
+	.insa-sale-plan-box {
+	    padding: 17px 37px 15px;
+	}
+}
+
+@media (max-width: 575px) {
+	.future-token-content {
+	    grid-template-columns: 1fr;
+	}
+	.future-token-box {
+		margin-bottom: 25px;
+	}
+	.future-token-box:last-child {
+		margin-bottom: 0;
+	}
+
+	.advantage-box {
+	    padding: 0;
+	}
+	.advantage-chart-box li {
+	    margin: 0 5px;
+	    width: 15px;
+	}
+
+	.grow-strongly-box .advantage-box {
+	    grid-template-columns: 1fr;
+	}
+	.grow-strongly-box .content {
+		margin-bottom: 25px;
+	}
+	.grow-strongly-box .content:last-child {
+		margin-bottom: 0;
+	}
+
+	.canvas-box .percent-60 {
+	    left: 60%;
+	}
+	.token-distribution-content ul {
+	    grid-template-columns: 1fr 1fr;
+	}
+
+	.about-title .title {
+	    font-size: 40px;
+	}
+
+	.title {
+	    font-size: 30px;
+	    line-height: 1.2em;
+	}
+
+	.ecosystem-content > img {
+		display: none;
+	}
+	.ecosystem-content li {
+	    position: initial;
+	    max-width: 100%;
+	    margin-bottom: 25px;
+	}
+	.ecosystem-content li:last-child {
+		margin-bottom: 0;
+	}
+
+	.road-map {
+	    margin-bottom: 50px;
+	}
+	.road-map-title {
+	    margin-bottom: 25px;
+	}
+	.road-map-content > img {
+		display: none;
+	}
+	.road-map-content li {
+		margin-bottom: 25px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.road-map-content li.top {
+		flex-direction: column-reverse;
+	}
+	.road-map-content li .time,
+	.road-map-content li {
+	    position: initial;
+	    font-size: 15px;
+	}
+	.road-map-content li span:not(.time) {
+	    width: auto;
+	    height: auto;
+	    display: block;
+	    text-align: center;
+	}
+	.road-map-content li .time {
+		margin-bottom: 5px;
+	}
+
+	.token-content {
+	    overflow-x: scroll;
+	}
+	.token-content table {
+	    min-width: 800px;
+	}
+
+	.video-content iframe {
+		width: 320px !important;
+		height: 240px !important;
+	}
+
+	.insa-sale-plan-content {
+	    grid-template-columns: 1fr;
+	}
+
+	.dec-title {
+	    font-size: 34px;
+	}
+
+	.insa-sale-plan-box {
+	    margin-right: 0;
+	    text-align: center;
+	}
+}

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "CircularStd-Bold",sans-serif;
+  src: url("../fonts/CircularStdBold/CircularStdBold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/CircularStdBold/CircularStdBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/CircularStdBold/CircularStdBold.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/CircularStdBold/CircularStdBold.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/CircularStdBold/CircularStdBold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/CircularStdBold/CircularStdBold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/CircularStdBold/CircularStdBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

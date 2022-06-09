@@ -1,0 +1,88 @@
+.page-video {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: start;
+  -moz-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  margin: 0 -1rem; }
+  .page-video .video {
+    margin: 0 1rem;
+    margin-bottom: 5.8rem;
+    max-width: -webkit-calc(50% - (2 * 1rem));
+    max-width: -moz-calc(50% - (2 * 1rem));
+    max-width: calc(50% - (2 * 1rem));
+    width: 100%; }
+    .page-video .video .video__box {
+      position: relative; }
+      .page-video .video .video__box .frame {
+        padding-top: 55.96919%; }
+        .page-video .video .video__box .frame::before {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -moz-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          width: 100%;
+          height: 100%;
+          background-color: #0d0d0d;
+          z-index: 1;
+          opacity: 0.23; }
+      .page-video .video .video__box .on__video {
+        position: relative;
+        z-index: 2; }
+        .page-video .video .video__box .on__video.active {
+          z-index: 1; }
+      .page-video .video .video__box .show__video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%; }
+        .page-video .video .video__box .show__video.active {
+          z-index: 4; }
+          .page-video .video .video__box .show__video.active iframe {
+            z-index: 2; }
+    .page-video .video .video__title {
+      font-size: 3rem;
+      width: 100%;
+      overflow: hidden;
+      -o-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+      line-height: 3rem;
+      -webkit-line-clamp: 1rem;
+      max-height: -webkit-calc(3rem * 1rem);
+      max-height: -moz-calc(3rem * 1rem);
+      max-height: calc(3rem * 1rem);
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      color: #262626;
+      font-weight: 300;
+      margin-top: 2rem; }
+
+@media (max-width: 1199.98px) {
+  .page-video .video {
+    margin-bottom: 3rem; }
+    .page-video .video .video__title {
+      font-size: 2rem; } }
+
+@media (max-width: 479.98px) {
+  .page-video {
+    margin: 0;
+    display: block; }
+    .page-video .video {
+      max-width: 100%;
+      margin: 0;
+      margin-bottom: 3rem; } }

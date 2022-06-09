@@ -1,0 +1,35 @@
+- font-family: poppins xtra-light (200)
+- font-family: poppins light (300)
+- font-family: poppins blod (700)
+
+- col-xl-: > 1200
+- col-lg-: > 992
+- col-md-: > 768
+- col-sm-: > 576
+- col-:    < 576
+
+
+* wapper-site (body):
+- background: #182242
+- font-family: 'Poppins', sans-serif;
+- color: #fff
+- font-size: 15px
+- line-height: 30px
+- letter-spacing: 0.01
+- font-weight: 300
+
+* title
+- font-family: 'Poppins', sans-serif;
+- color: #fff
+- font-size: 36px
+- line-height: 30px
+- letter-spacing: 0
+- font-weight: 700
+
+* a
+- font-family: 'Poppins', sans-serif;
+- color: #fff
+- font-size: 15px
+- line-height: 30px
+- letter-spacing: 0
+- font-weight: 400

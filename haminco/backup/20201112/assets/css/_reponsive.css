@@ -1,0 +1,461 @@
+
+@media (max-width: 1399px) {
+	.languages-content a,
+	.megamenu-content a {
+	    font-weight: 800;
+	    font-size: 15px;
+	}
+
+	.languages-content ul {
+	    margin-left: 10px;
+	}
+
+	.header-top .banners-content h2 {
+		font-size: 19px;
+	}
+	.header-top .banners-content {
+		font-size: 15px;
+	}
+
+	.hotlines-content span {
+		font-size: 26px;
+	}
+
+	.facebook-fanpage iframe {
+		width: 100%;
+	}
+
+	.art-vision .banner-content .content,
+	.art-vision .title-box,
+	.art-mission .image,
+	.art-about-us .banners-image {
+	    padding-right: 0;
+	}
+
+	.art-mission .banner-content .content,
+	.art-mission .title-box,
+	.art-vision .image,
+	.art-histories .banners-image {
+	    padding-left: 0;
+	}
+
+	.art-business-areas .banner-content {
+	    padding-left: 15px;
+	}
+
+	.services-content {
+		padding: 0 50px;
+	}
+	.services-content .slick-services {
+	    margin: 0 -30px;
+	}
+	.services-content .item {
+	    padding: 0 30px;
+	}
+
+	.projects-list .groups-box {
+		margin: -15px;
+	}
+	.projects-list .groups-box .item {
+	    padding: 15px;
+	}
+
+	.category-name a {
+	    font-size: 23px;
+	    font-weight: 700;
+	}
+
+	.art-constructions .slick-constructions {
+		margin: 0 -15px;
+	}
+	.art-constructions .item {
+		padding: 0 15px;
+	}
+
+	.art-constructions .title {
+		font-size: 30px;
+	}
+
+	.art-address .address-box,
+	.art-address .contacts-box {
+		padding: 0 15px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.container {
+	    max-width: 960px;
+	}
+
+	.slick-prev {
+	    left: -12px;
+	}
+	.slick-next {
+	    right: -12px;
+	}
+
+	.hotlines-content label {
+		font-size: 16px;
+	}
+	.hotlines-content span {
+	    font-size: 20px;
+	}
+
+	.languages-content a,
+	.megamenu-content a {
+	    font-weight: 700;
+	    font-size: 14px;
+	}
+
+	.megamenu-content a {
+		padding: 20px 12px;
+	}
+
+	.products-content .groups-box .item {
+		width: calc(100% / 3);
+	}
+
+	.footer-contact-box {
+	    padding-right: 0;
+	}
+
+	.services-content .slick-services {
+	    margin: 0 -15px;
+	}
+	.services-content .item {
+	    padding: 0 15px;
+	}
+
+	.breadcrumb-title {
+		display: block;
+	}
+
+	.sidebars {
+		margin-top: 50px;
+	}
+	.art-sidebar-blogs .post-image {
+	    max-width: 110px;
+	}
+	.art-sidebar-blogs .post-content {
+	    max-width: calc(100% - 110px);
+	}
+
+	.posts-list .groups-box .item {
+	    width: calc(100% / 2);
+	}
+	.posts-list .button {
+	    padding-top: 30px;
+	}
+
+	.art-comments {
+	    margin-top: 50px;
+	    padding: 50px 0 0;
+	}
+
+	.projects-list .groups-box .item {
+		width: calc(100% / 2);
+	}
+	.projects-list .groups-box .post-name a {
+		font-size: 24px;
+	}
+
+	.categories-content .item {
+	    width: calc(100% / 2);
+	}
+
+	.body-404 .art-banners h1 {
+		font-size: 320px;
+	}
+	.body-404 .art-banners h2 {
+		font-size: 45px;
+	}
+	.body-404 .art-banners h3 {
+		font-size: 20px;
+	}
+	.body-404 .art-banners .btn {
+	    padding: 12px 50px;
+	}
+}
+
+@media (max-width: 991px) {
+	.container {
+	    max-width: 720px;
+	}
+
+	.hotlines-box {
+	    margin-top: 15px;
+	}
+
+	.header-top .banners-content {
+		padding-right: 0;
+	}
+
+	.header-main .groups-box {
+		justify-content: space-between;
+	}
+	.header-main .groups-box .logos-box {
+		padding: 5px 0;
+		max-width: 74px;
+	}
+
+	.mobile-groups-box {
+		display: flex;
+		align-items: center;
+	}
+
+	.menu-open {
+		color: #fff;
+		margin-left: 20px;
+	}
+	.menu-close .logos-box {
+		max-width: 80px;
+	}
+	.megamenu-content {
+		display: block;
+	}
+	.megamenu-content a {
+		color: #242424;
+	}
+	.megamenu-content li:hover a,
+	.megamenu-content li.active a {
+		background: none;
+	}
+	.megamenu-content a:after {
+		display: none;
+	}
+	
+	.products-content .groups-box .item {
+	    width: calc(100% / 2);
+	}
+
+	.post-button {
+	    padding-bottom: 40px;
+	}
+
+	.chats-both-box,
+	.back-to-top {
+		right: 15px;
+		bottom: 15px;
+	}
+
+	.chats-both-box {
+		bottom: 70px;
+	}
+	.chats-both-box li {
+		margin-bottom: 15px;
+	}
+
+	.art-about-us .banners-image {
+		margin-bottom: 20px;
+	}
+
+	.art-histories .banners-image {
+	    padding-bottom: 0;
+	    margin-top: 20px;
+	}
+
+	.art-banners-groups .banner-box > * {
+		width: 100%;
+	}
+
+	.art-vision .image {
+		margin-bottom: 30px;
+	}
+
+	.art-business-areas .image {
+		margin-bottom: 0;
+	}
+
+	.services-content {
+		padding: 0 15px;
+	}
+	.services-content .slick-services {
+	    margin: 0 -15px;
+	}
+	.services-content .item {
+	    padding: 0 15px;
+	}
+
+	.product-detail-contents {
+		margin-top: 20px;
+	}
+
+	.post-description-content {
+	    padding: 0;
+	}
+	.projects-list .post-button {
+		padding-bottom: 0;
+	}
+
+	.art-constructions .slick-dots {
+	    padding-top: 25px;
+	}
+
+	.contacts-box {
+		margin-top: 50px;
+	}
+	.contacts-box .contacts-content {
+	    margin-top: 15px;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+	    max-width: 540px;
+	}
+
+	.title {
+	    font-size: 24px;
+	}
+	.title-box-2 {
+		display: block;
+	}
+	.title-box-2 .title {
+		min-width: 0;
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	.title-box-2 a {
+	    font-size: 15px;
+	}
+
+	.post-name a {
+		font-size: 24px;
+	}
+
+	.copyright-box {
+		text-align: center;
+	}
+	.socials-list {
+		justify-content: center;
+	}
+
+	.breadcrumb-title .title {
+		margin-bottom: 0;
+	}
+
+	.service-name a {
+		font-size: 24px;
+		min-height: 0;
+	}
+
+	.projects-list .groups-box .item {
+		width: 100%;
+	}
+	.projects-list .groups-box .post-name a {
+		min-height: 0;
+	}
+
+	.categories-content .item {
+	    width: 100%;
+	}
+
+	.slick-constructions-nav .slick-arrow {
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 18px;
+	}
+	.slick-constructions-nav .slick-prev {
+	    left: 7px;
+	}
+	.slick-constructions-nav .slick-next {
+	    right: 7px;
+	}
+
+	.art-wastewaters-categories .categories-content .item {
+	    width: 100%;
+	}
+
+	.art-constructions .title {
+		font-size: 24px;
+		margin-bottom: 25px;
+	}
+	.art-constructions .post-button {
+	    padding: 0 15px;
+	}
+
+	.body-404 .art-banners h1 {
+	    font-size: 200px;
+	}
+	.body-404 .art-banners h2 {
+	    font-size: 26px;
+	}
+	.body-404 .art-banners h3 {
+	    font-size: 14px;
+	}
+	.body-404 .art-banners .btn {
+	    padding: 12px 40px;
+	    font-size: 14px;
+	}
+
+	.art-address .address-box,
+	.art-address .contacts-box {
+		padding: 0;
+	}
+}
+
+@media (max-width: 575px) {
+	.title {
+	    font-size: 18px;
+	}
+	.title-box-2 .title {
+		padding-right: 0;
+	}
+	.title-box-2 .title .icon {
+	    font-size: 24px;
+	}
+
+	.posts-content .groups-box .item,
+	.products-content .groups-box .item {
+		width: 100%;
+	}
+	.posts-content .groups-box .post-name a,
+	.post-name a,
+	.product-name a {
+		font-size: 18px;
+	}
+
+	.slick-arrow {
+		font-size: 40px;
+	}
+	.slick-prev {
+		left: 0;
+	}
+	.slick-next {
+		right: 0;
+	}
+
+	.service-content {
+		font-size: 15px;
+	}
+	.service-name a {
+		font-size: 18px;
+	}
+
+	.post-description-box .title-box .post-excerpt {
+		padding: 10px 15px;
+	}
+
+	.category-name a {
+		font-size: 18px;
+	}
+
+	.art-constructions .title {
+		font-size: 18px;
+	}
+
+	.body-404 .art-banners h1 {
+	    font-size: 140px;
+	}
+	.body-404 .art-banners h2 {
+	    font-size: 16px;
+	}
+	.body-404 .art-banners .btn {
+	    padding: 12px 30px;
+	}
+
+	.art-address .title {
+		font-size: 18px;
+	}
+}

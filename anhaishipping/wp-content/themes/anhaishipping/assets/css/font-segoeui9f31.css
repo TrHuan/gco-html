@@ -1,0 +1,91 @@
+
+/*@font-face {
+  font-family: "segoeui";
+  src: url("../fonts/segoeui/segoeui-thin/segoeui-thin.eot");
+  src: url("../fonts/segoeui/segoeui-thin/segoeui-thin.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/segoeui/segoeui-thin/segoeui-thin.otf") format("opentype"),
+  url("../fonts/segoeui/segoeui-thin/segoeui-thin.svg") format("svg"),
+  url("../fonts/segoeui/segoeui-thin/segoeui-thin.ttf") format("truetype"),
+  url("../fonts/segoeui/segoeui-thin/segoeui-thin.woff") format("woff"),
+  url("../fonts/segoeui/segoeui-thin/segoeui-thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}*/
+
+@font-face {
+  font-family: "segoeui";
+  src: url("../fonts/segoeui/segoeuil/segoeuil.eot");
+  src: url("../fonts/segoeui/segoeuil/segoeuild41d.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/segoeui/segoeuil/segoeuil.otf") format("opentype"),
+  url("../fonts/segoeui/segoeuil/segoeuil.html") format("svg"),
+  url("../fonts/segoeui/segoeuil/segoeuil.ttf") format("truetype"),
+  url("../fonts/segoeui/segoeuil/segoeuil.woff") format("woff"),
+  url("../fonts/segoeui/segoeuil/segoeuil-2.html") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "segoeui";
+  src: url("../fonts/segoeui/segoeui/segoeui.eot");
+  src: url("../fonts/segoeui/segoeui/segoeuid41d.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/segoeui/segoeui/segoeui.otf") format("opentype"),
+  url("../fonts/segoeui/segoeui/segoeui.html") format("svg"),
+  url("../fonts/segoeui/segoeui/segoeui.ttf") format("truetype"),
+  url("../fonts/segoeui/segoeui/segoeui.woff") format("woff"),
+  url("../fonts/segoeui/segoeui/segoeui-2.html") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "segoeui";
+  src: url("../fonts/segoeui/seguisb/seguisb.eot");
+  src: url("../fonts/segoeui/seguisb/seguisbd41d.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/segoeui/seguisb/seguisb.otf") format("opentype"),
+  url("../fonts/segoeui/seguisb/seguisb.html") format("svg"),
+  url("../fonts/segoeui/seguisb/seguisb.ttf") format("truetype"),
+  url("../fonts/segoeui/seguisb/seguisb.woff") format("woff"),
+  url("../fonts/segoeui/seguisb/seguisb-2.html") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "segoeui";
+  src: url("../fonts/segoeui/segoeuib/segoeuib.eot");
+  src: url("../fonts/segoeui/segoeuib/segoeuibd41d.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/segoeui/segoeuib/segoeuib.otf") format("opentype"),
+  url("../fonts/segoeui/segoeuib/segoeuib.html") format("svg"),
+  url("../fonts/segoeui/segoeuib/segoeuib.ttf") format("truetype"),
+  url("../fonts/segoeui/segoeuib/segoeuib.woff") format("woff"),
+  url("../fonts/segoeui/segoeuib/segoeuib-2.html") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "segoeuiz";
+  src: url("../fonts/segoeui/segoeuiz/segoeuiz.eot");
+  src: url("../fonts/segoeui/segoeuiz/segoeuizd41d.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/segoeui/segoeuiz/segoeuiz.otf") format("opentype"),
+  url("../fonts/segoeui/segoeuiz/segoeuiz.html") format("svg"),
+  url("../fonts/segoeui/segoeuiz/segoeuiz.ttf") format("truetype"),
+  url("../fonts/segoeui/segoeuiz/segoeuiz.woff") format("woff"),
+  url("../fonts/segoeui/segoeuiz/segoeuiz-2.html") format("woff2");
+  /*font-weight: 700;*/
+  font-style: normal;
+}
+
+/*@font-face {
+  font-family: "segoeui";
+  src: url("../fonts/segoeui/segoeui-black/segoeui-black.eot");
+  src: url("../fonts/segoeui/segoeui-black/segoeui-black.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/segoeui/segoeui-black/segoeui-black.otf") format("opentype"),
+  url("../fonts/segoeui/segoeui-black/segoeui-black.svg") format("svg"),
+  url("../fonts/segoeui/segoeui-black/segoeui-black.ttf") format("truetype"),
+  url("../fonts/segoeui/segoeui-black/segoeui-black.woff") format("woff"),
+  url("../fonts/segoeui/segoeui-black/segoeui-black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}*/

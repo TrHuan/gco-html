@@ -1,0 +1,187 @@
+@import 'settings';
+
+@media (max-width: $max_width) {
+	.back-to-top {
+		bottom: 15px;
+		right: 15px;
+	}
+	
+	// Code
+}
+
+@media (max-width: 1199px) {
+	// Code
+
+	.dich-vu-box {
+		.item {
+			@include width(3,1);
+		}
+	}
+
+	.dich-vu-thiet-ke-box {
+		.item {
+			@include width(3,1);
+		}
+	}
+}
+
+@media (max-width: 991px) {
+	// Code
+
+	.post-box {
+		.post-image {
+		    max-width: 320px;
+		}
+
+		.post-content {
+		    max-width: calc(100% - 320px);
+
+		    .post-name {
+		    	margin-bottom: 15px;
+		    }
+
+		    .post-excerpt {
+		    	@include numb_row(3);
+		    }
+		}
+	}
+
+	.dang-ky-tu-van-box {
+		.form-last {
+			margin-bottom: 30px;
+		}
+	}
+
+	.address-box {
+		margin-bottom: 30px;
+	}
+
+	.dich-vu-box {	
+		.post-box {
+			> * {
+				max-width: 100%;
+			}
+
+			.post-content {
+				margin-top: 15px;
+			}
+		}
+
+		.item {
+			@include width(2,1);
+		}
+
+		.post-box {
+			.post-content {
+				margin-top: 0;
+			}
+		}
+	}
+
+	.dich-vu-thiet-ke-box {
+		.item {
+			@include width(2,1);
+		}
+	}
+
+	.lth-bao-gia-quy-trinh {
+		.dich-vu-box {
+			.item {
+				@include width(2,1);
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	// Code
+
+	.post-box {
+		.post-content,
+		.post-image {
+		    max-width: 100%;
+		}
+
+		.post-image {
+			margin-bottom: 15px;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		.post-content {
+			.post-excerpt {
+				margin-bottom: 20px;
+			}
+		}
+	}
+
+	.title-tab a {
+		font-size: 20px;
+	}
+	
+	.tab-phong-thuy form .form-group {
+		width: 100%;
+	}
+
+	.googlemap-box {
+		iframe {
+			height: 360px;
+		}
+	}
+
+	.lien-he-box .groups-box .form-group {
+		width: 100% !important;
+	}
+}
+
+@media (max-width: 575px) {
+	// Code
+
+}
+
+@media (max-width: 479px) {
+	// Code
+
+	.title-tab a {
+		font-size: 15px;
+		padding: 6px 10px;
+	}
+
+	form {
+		.form-control {
+			padding: 0 15px;
+		}
+
+		select.form-control {
+			padding-right: 30px;
+		}
+	}
+
+	.googlemap-box {
+		iframe {
+			height: 240px;
+		}
+	}
+
+	.dich-vu-box {		
+		.item {
+			width: 100%;
+		}
+	}
+
+	.dich-vu-thiet-ke-box {
+		.item {
+			width: 100%;
+		}
+	}
+
+	.lth-bao-gia-quy-trinh {
+		.dich-vu-box {
+			.item {
+				width: 100%;
+			}
+		}
+	}
+}

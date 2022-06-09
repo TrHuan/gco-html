@@ -1,0 +1,155 @@
+
+@media (max-width: 1399px) {
+
+}
+
+@media (max-width: 1199px) {
+	.container {
+	    max-width: 960px;
+	}
+
+	.art-banners-text .header-content p {
+	    padding-left: 310px;
+	}
+	.art-month-face .header-content p {
+	    padding: 0;
+	}
+
+	.art-month-face .header-content {
+		padding: 0;
+	}
+	.art-month-face .header-content .content {
+		position: initial;
+		margin: 0 auto;
+	}
+	.art-month-face .header-content .content:before {
+		display: none;
+	}
+
+	.art-happy-strangers .item-flex .banner-content {
+		padding: 0 0 0 15px;
+	}
+	.art-happy-strangers .item-flex-2 .banner-content {
+		padding: 0 15px 0 0;
+	}
+}
+
+@media (max-width: 991px) {
+	.container {
+	    max-width: 720px;
+	}
+
+	.art-banners-text .title-box,
+	.art-banners-text .banner-content {
+		padding: 0 15px;
+	    max-width: 720px;
+	}
+	.art-banners-text .title-box {
+		padding-top: 20px;
+	}
+
+	.art-happy-strangers .item-flex .banner-box {
+		justify-content: center;
+	}
+	.art-happy-strangers .item-flex .banner-box > div {
+		max-width: 100%;
+	}
+	.art-happy-strangers .item-flex .banner-content {
+		padding: 15px 0 0;
+	}
+	.art-happy-strangers .item-flex-2 .banner-box {
+		flex-direction: column-reverse;
+	}
+
+	.art-recruitment .header-content label {
+		position: initial;
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
+	.art-recruitment .header-content p {
+	    padding-left: 0;
+	}
+
+	.art-happy-strangers .banner-content .title {
+		padding-right: 0;
+		text-align: left;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+	    max-width: 540px;
+	}
+
+	.art-banners-text .header-content label {
+		position: initial;
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
+	.art-banners-text .header-content p {
+		padding-left: 0;
+	}
+
+	.art-recruitment .header-content label {
+		font-size: 50px;
+	}
+}
+
+@media (max-width: 575px) {
+	.title {
+		font-size: 25px;
+	}
+	.art-prefaces .title {
+		font-size: 50px;
+	}
+	.art-banners-text .header-content label {
+		font-size: 25px;
+	}
+	.art-month-face .banner-content .title {
+		font-size: 24px;
+	}
+	.art-month-face .banner-content .title span {
+		font-size: 60px;
+	}
+	.art-month-face .banner-content strong {
+		font-size: 18px !important;
+	}
+	.art-month-face .header-content .content {
+		max-width: 100%;
+		text-align: left;
+		padding: 25px 15px;
+	}
+	.art-birthday .title-box h4 span small,
+	.art-birthday .title-box h4 span,
+	.art-birthday .title-box h4 {
+		background: none;
+		font-size: 25px;
+	}
+	.art-happy-strangers .banner-content .title {
+		padding-left: 0;
+		background: none;
+		font-size: 25px;
+	}
+	.art-recruitment .banner-content .content {
+		text-align: left;
+	}
+	.art-recruitment .banner-content .content a {
+		font-size: 22px;
+	}
+	.art-funny-question .banner-content .title {
+		font-size: 25px;
+	}
+	.art-funny-question .banner-content label {
+		font-size: 20px !important;
+	}
+	.art-banners-footer .banner-content {
+		display: block;
+	}
+	.art-banners-footer .banner-content .content {
+		text-align: left !important;
+		margin-bottom: 20px;
+	}
+	.art-banners-footer .banner-content .content:last-child {
+		margin-bottom: 0;
+	}
+}

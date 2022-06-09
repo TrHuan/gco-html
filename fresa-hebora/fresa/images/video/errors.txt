@@ -1,0 +1,1 @@
+[5/2/2018, 2:35:29 PM] layer "1.jpg": Duplicate path: 1.jpg
